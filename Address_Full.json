@@ -1,0 +1,2874 @@
+[
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Myitkyina",
+        "Township": "Chipwi (ချီ​ဖွေ)",
+        "Postal Code": "1071",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kayin (ကရင်ပြည်နယ်)",
+        "District": "Kawkareik",
+        "Township": "Kyainseikgyi (ကြာအင်းဆိပ်ကြီး)",
+        "Postal Code": "13071",
+        "City EN": "Hpa-An",
+        "City MM": "ဘားအံ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Hkamti",
+        "Township": "Hkamti (ခန္တီး)",
+        "Postal Code": "2011",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Tanintharyi (တနင်္သာရီတိုင်းဒေသကြီး)",
+        "District": "Myeik",
+        "Township": "Kyunsu (ကျွန်းစု)",
+        "Postal Code": "14101",
+        "City EN": "Dawei",
+        "City MM": "ထားဝယ်"
+    },
+    {
+        "Region": "Tanintharyi (တနင်္သာရီတိုင်းဒေသကြီး)",
+        "District": "Myeik",
+        "Township": "Tanintharyi (တနင်္သာရီ)",
+        "Postal Code": "14071",
+        "City EN": "Dawei",
+        "City MM": "ထားဝယ်"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Myitkyina",
+        "Township": "Myitkyina (မြစ်ကြီးနား)",
+        "Postal Code": "1011",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Bhamo",
+        "Township": "Shwegu (ရွှေကူ)",
+        "Postal Code": "1121",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Myitkyina",
+        "Township": "Waingmaw (ဝိုင်းမော်)",
+        "Postal Code": "1081",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kayin (ကရင်ပြည်နယ်)",
+        "District": "Myawaddy",
+        "Township": "Myawaddy (မြဝတီ)",
+        "Postal Code": "13051",
+        "City EN": "Hpa-An",
+        "City MM": "ဘားအံ"
+    },
+    {
+        "Region": "Chin (ချင်းပြည်နယ်)",
+        "District": "Hakha",
+        "Township": "Thantlang (ထန်တလန်)",
+        "Postal Code": "3021",
+        "City EN": "Hakha",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Sagaing",
+        "Township": "Myinmu (မြင်းမူ)",
+        "Postal Code": "2341",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Katha",
+        "Township": "Indaw (အင်းတော်)",
+        "Postal Code": "2141",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Kale",
+        "Township": "Mingin (မင်းကင်း)",
+        "Postal Code": "2111",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Naga Self-Administered Zone",
+        "Township": "Lay Shi (လေရှီး)",
+        "Postal Code": "2142",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Tanintharyi (တနင်္သာရီတိုင်းဒေသကြီး)",
+        "District": "Myeik",
+        "Township": "Myeik (မြိတ်)",
+        "Postal Code": "14051",
+        "City EN": "Dawei",
+        "City MM": "ထားဝယ်"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Bhamo",
+        "Township": "Mansi (မံစီ)",
+        "Postal Code": "1141",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Puta-O",
+        "Township": "Sumprabum (ဆွမ်ပရာဘွမ်)",
+        "Postal Code": "1061",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kayah (ကယားပြည်နယ်)",
+        "District": "Loikaw",
+        "Township": "Demoso (ဒီးမော့ဆို)",
+        "Postal Code": "9021",
+        "City EN": "Loikaw",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Chin (ချင်းပြည်နယ်)",
+        "District": "Falam",
+        "Township": "Tonzang (တွန်းဇန်)",
+        "Postal Code": "3051",
+        "City EN": "Hakha",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Sagaing",
+        "Township": "Myaung (မြောင်)",
+        "Postal Code": "2381",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Kanbalu",
+        "Township": "Kanbalu (ကန့်ဘလူ)",
+        "Postal Code": "2211",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Tanintharyi (တနင်္သာရီတိုင်းဒေသကြီး)",
+        "District": "Dawei",
+        "Township": "Thayetchaung (သရက်ချောင်း)",
+        "Postal Code": "14031",
+        "City EN": "Dawei",
+        "City MM": "ထားဝယ်"
+    },
+    {
+        "Region": "Tanintharyi (တနင်္သာရီတိုင်းဒေသကြီး)",
+        "District": "Myeik",
+        "Township": "Palaw (ပုလော)",
+        "Postal Code": "14062",
+        "City EN": "Dawei",
+        "City MM": "ထားဝယ်"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Bago",
+        "Township": "Thanatpin (သနပ်ပင်)",
+        "Postal Code": "8081",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Bago",
+        "Township": "Kyauktaga (ကျောက်တံခါး)",
+        "Postal Code": "8021",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Myitkyina",
+        "Township": "Injangyang (အင်ဂျန်းယန်)",
+        "Postal Code": "1201",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kayah (ကယားပြည်နယ်)",
+        "District": "Loikaw",
+        "Township": "Shadaw (ရှားတော)",
+        "Postal Code": "9071",
+        "City EN": "Loikaw",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Mohnyin",
+        "Township": "Hpakant (ဖားကန့်)",
+        "Postal Code": "1161",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kayah (ကယားပြည်နယ်)",
+        "District": "Bawlake",
+        "Township": "Mese (မယ်စဲ)",
+        "Postal Code": "9061",
+        "City EN": "Loikaw",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Sagaing",
+        "Township": "Sagaing (စစ်ကိုင်း)",
+        "Postal Code": "2371",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Shwebo",
+        "Township": "Khin-U (ခင်ဦး)",
+        "Postal Code": "2231",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Naga Self-Administered Zone",
+        "Township": "Lahe (လဟယ်)",
+        "Postal Code": "2022",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Tanintharyi (တနင်္သာရီတိုင်းဒေသကြီး)",
+        "District": "Dawei",
+        "Township": "Dawei (ထားဝယ်)",
+        "Postal Code": "14011",
+        "City EN": "Dawei",
+        "City MM": "ထားဝယ်"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Bago",
+        "Township": "Nyaunglebin (ညောင်လေးပင်)",
+        "Postal Code": "8031",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Puta-O",
+        "Township": "Puta-O (ပူတာအို)",
+        "Postal Code": "1051",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Puta-O",
+        "Township": "Nawngmun (နောင်မွန်း)",
+        "Postal Code": "1031",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kayin (ကရင်ပြည်နယ်)",
+        "District": "Hpa-An",
+        "Township": "Hpa-An (ဘားအံ)",
+        "Postal Code": "13011",
+        "City EN": "Hpa-An",
+        "City MM": "ဘားအံ"
+    },
+    {
+        "Region": "Chin (ချင်းပြည်နယ်)",
+        "District": "Falam",
+        "Township": "Tedim (တီးတိန်)",
+        "Postal Code": "3041",
+        "City EN": "Hakha",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Bago",
+        "Township": "Bago (ပဲခူး)",
+        "Postal Code": "8011",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Bago",
+        "Township": "Waw (ဝေါ)",
+        "Postal Code": "8071",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Myitkyina",
+        "Township": "Tanai (တနိုင်း)",
+        "Postal Code": "1091",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kayah (ကယားပြည်နယ်)",
+        "District": "Loikaw",
+        "Township": "Hpruso (ဖရူဆို)",
+        "Postal Code": "9031",
+        "City EN": "Loikaw",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Kayin (ကရင်ပြည်နယ်)",
+        "District": "Hpa-An",
+        "Township": "Hlaingbwe (လှိုင်းဘွဲ့)",
+        "Postal Code": "13041",
+        "City EN": "Hpa-An",
+        "City MM": "ဘားအံ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Monywa",
+        "Township": "Ayadaw (အရာတော်)",
+        "Postal Code": "2291",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Yinmarbin",
+        "Township": "Yinmarbin (ယင်းမာပင်)",
+        "Postal Code": "2311",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Kayah (ကယားပြည်နယ်)",
+        "District": "Loikaw",
+        "Township": "Loikaw (လွိုင်ကော်)",
+        "Postal Code": "9011",
+        "City EN": "Loikaw",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Kayah (ကယားပြည်နယ်)",
+        "District": "Bawlake",
+        "Township": "Hpasawng (ဖားဆောင်း)",
+        "Postal Code": "9051",
+        "City EN": "Loikaw",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Shwebo",
+        "Township": "Wetlet (ဝက်လက်)",
+        "Postal Code": "2281",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Shwebo",
+        "Township": "Taze (တန့်ဆည်)",
+        "Postal Code": "2221",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Tanintharyi (တနင်္သာရီတိုင်းဒေသကြီး)",
+        "District": "Kawthoung",
+        "Township": "Kawthoung (ကော့သောင်း)",
+        "Postal Code": "14091",
+        "City EN": "Dawei",
+        "City MM": "ထားဝယ်"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Bago",
+        "Township": "Daik-U (ဒိုက်ဦး)",
+        "Postal Code": "8061",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Katha",
+        "Township": "Tigyaing (ထီးချိုင့်)",
+        "Postal Code": "2191",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Katha",
+        "Township": "Banmauk (ဗန်းမောက်)",
+        "Postal Code": "2131",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Tanintharyi (တနင်္သာရီတိုင်းဒေသကြီး)",
+        "District": "Dawei",
+        "Township": "Yebyu (ရေဖြူ)",
+        "Postal Code": "14021",
+        "City EN": "Dawei",
+        "City MM": "ထားဝယ်"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Monywa",
+        "Township": "Monywa (မုံရွာ)",
+        "Postal Code": "2301",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Mawlaik",
+        "Township": "Paungbyin (ဖောင်းပြင်)",
+        "Postal Code": "2061",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Kanbalu",
+        "Township": "Kyunhla (ကျွန်းလှ)",
+        "Postal Code": "2201",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Tanintharyi (တနင်္သာရီတိုင်းဒေသကြီး)",
+        "District": "Kawthoung",
+        "Township": "Bokpyin (ဘုတ်ပြင်း)",
+        "Postal Code": "14081",
+        "City EN": "Dawei",
+        "City MM": "ထားဝယ်"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Bago",
+        "Township": "Shwegyin (ရွှေကျင်)",
+        "Postal Code": "8033",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Chin (ချင်းပြည်နယ်)",
+        "District": "Mindat",
+        "Township": "Mindat (မင်းတပ်)",
+        "Postal Code": "3071",
+        "City EN": "Hakha",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Chin (ချင်းပြည်နယ်)",
+        "District": "Hakha",
+        "Township": "Hakha (ဟားခါး)",
+        "Postal Code": "3011",
+        "City EN": "Hakha",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Chin (ချင်းပြည်နယ်)",
+        "District": "Matupi",
+        "Township": "Paletwa (ပလက်ဝ)",
+        "Postal Code": "7071",
+        "City EN": "Hakha",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Monywa",
+        "Township": "Chaung-U (ချောင်းဦး)",
+        "Postal Code": "2331",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Hkamti",
+        "Township": "Homalin (ဟုမ္မလင်း)",
+        "Postal Code": "2051",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Kawlin",
+        "Township": "Wuntho (ဝန်းသို)",
+        "Postal Code": "2171",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Chin (ချင်းပြည်နယ်)",
+        "District": "Matupi",
+        "Township": "Matupi (မတူပီ)",
+        "Postal Code": "3061",
+        "City EN": "Hakha",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Shwebo",
+        "Township": "Ye-U (ရေဦး)",
+        "Postal Code": "2241",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Kale",
+        "Township": "Kale (ကလေး)",
+        "Postal Code": "2091",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Yinmarbin",
+        "Township": "Kani (ကနီ)",
+        "Postal Code": "2121",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Kawlin",
+        "Township": "Pinlebu (ပင်လည်ဘူး)",
+        "Postal Code": "2161",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Mohnyin",
+        "Township": "Mogaung (မိုးကောင်း)",
+        "Postal Code": "1101",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Bhamo",
+        "Township": "Momauk (မိုးမောက်)",
+        "Postal Code": "1151",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Puta-O",
+        "Township": "Khaunglanhpu (ခေါင်လန်ဖူး)",
+        "Postal Code": "1181",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Mawlaik",
+        "Township": "Mawlaik (မော်လိုက်)",
+        "Postal Code": "2081",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Yinmarbin",
+        "Township": "Salingyi (ဆားလင်းကြီး)",
+        "Postal Code": "2321",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Tanintharyi (တနင်္သာရီတိုင်းဒေသကြီး)",
+        "District": "Dawei",
+        "Township": "Launglon (လောင်းလုံး)",
+        "Postal Code": "14041",
+        "City EN": "Dawei",
+        "City MM": "ထားဝယ်"
+    },
+    {
+        "Region": "Kayah (ကယားပြည်နယ်)",
+        "District": "Bawlake",
+        "Township": "Bawlake (ဘောလခဲ)",
+        "Postal Code": "9041",
+        "City EN": "Loikaw",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Kayin (ကရင်ပြည်နယ်)",
+        "District": "Hpapun",
+        "Township": "Hpapun (ဖာပွန်)",
+        "Postal Code": "13031",
+        "City EN": "Hpa-An",
+        "City MM": "ဘားအံ"
+    },
+    {
+        "Region": "Chin (ချင်းပြည်နယ်)",
+        "District": "Mindat",
+        "Township": "Kanpetlet (ကန်ပက်လက်)",
+        "Postal Code": "3081",
+        "City EN": "Hakha",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Shwebo",
+        "Township": "Shwebo (ရွှေဘို)",
+        "Postal Code": "2261",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Shwebo",
+        "Township": "Tabayin (ဒီပဲယင်း)",
+        "Postal Code": "2251",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Katha",
+        "Township": "Katha (ကသာ)",
+        "Postal Code": "2151",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Tamu",
+        "Township": "Tamu (တမူး)",
+        "Postal Code": "2071",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Naga Self-Administered Zone",
+        "Township": "Nanyun (နန်းယွန်း)",
+        "Postal Code": "2012",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Taungoo",
+        "Township": "Taungoo (တောင်ငူ)",
+        "Postal Code": "8101",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Mohnyin",
+        "Township": "Mohnyin (မိုးညှင်း)",
+        "Postal Code": "1111",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Bhamo",
+        "Township": "Bhamo (ဗန်းမော်)",
+        "Postal Code": "1131",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Puta-O",
+        "Township": "Machanbaw (မချမ်းဘော)",
+        "Postal Code": "1041",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kayin (ကရင်ပြည်နယ်)",
+        "District": "Kawkareik",
+        "Township": "Kawkareik (ကော့ကရိတ်)",
+        "Postal Code": "13061",
+        "City EN": "Hpa-An",
+        "City MM": "ဘားအံ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Kale",
+        "Township": "Kalewa (ကလေးဝ)",
+        "Postal Code": "2101",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Bago",
+        "Township": "Kawa (ကဝ)",
+        "Postal Code": "8091",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Kachin (ကချင်ပြည်နယ်)",
+        "District": "Myitkyina",
+        "Township": "Tsawlaw (ဆော့လော်)",
+        "Postal Code": "1171",
+        "City EN": "Myitkyina",
+        "City MM": "မြစ်ကြီးနား"
+    },
+    {
+        "Region": "Kayin (ကရင်ပြည်နယ်)",
+        "District": "Hpa-An",
+        "Township": "Thandaunggyi (သံတောင်ကြီး)",
+        "Postal Code": "13021",
+        "City EN": "Hpa-An",
+        "City MM": "ဘားအံ"
+    },
+    {
+        "Region": "Chin (ချင်းပြည်နယ်)",
+        "District": "Falam",
+        "Township": "Falam (ဖလမ်း)",
+        "Postal Code": "3031",
+        "City EN": "Hakha",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Monywa",
+        "Township": "Budalin (ဘုတလင်)",
+        "Postal Code": "2271",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Yinmarbin",
+        "Township": "Pale (ပုလဲ)",
+        "Postal Code": "2351",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Sagaing (စစ်ကိုင်းတိုင်းဒေသကြီး)",
+        "District": "Kawlin",
+        "Township": "Kawlin (ကောလင်း)",
+        "Postal Code": "2181",
+        "City EN": "Monywa",
+        "City MM": "မုံရွာ"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Taungoo",
+        "Township": "Yedashe (ရေတာရှည်)",
+        "Postal Code": "8111",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Taungoo",
+        "Township": "Kyaukkyi (ကျောက်ကြီး)",
+        "Postal Code": "8041",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Pyay",
+        "Township": "Pyay (ပြည်)",
+        "Postal Code": "8151",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Taungoo",
+        "Township": "Oktwin (အုတ်တွင်း)",
+        "Postal Code": "8121",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Taungoo",
+        "Township": "Phyu (ဖြူး)",
+        "Postal Code": "8141",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Taungoo",
+        "Township": "Htantabin (ထန်းတပင်)",
+        "Postal Code": "8131",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Pyay",
+        "Township": "Thegon (သဲကုန်း)",
+        "Postal Code": "8191",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Pyay",
+        "Township": "Paukkhaung (ပေါက်ခေါင်း)",
+        "Postal Code": "8161",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Thayarwady",
+        "Township": "Thayarwady (သာယာဝတီ)",
+        "Postal Code": "8232",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Thayarwady",
+        "Township": "Nattalin (နတ်တလင်း)",
+        "Postal Code": "8211",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Pyay",
+        "Township": "Shwedaung (ရွှေတောင်)",
+        "Postal Code": "8181",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Thayarwady",
+        "Township": "Minhla (မင်းလှ)",
+        "Postal Code": "4071",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Thayarwady",
+        "Township": "Gyobingauk (ကြို့ပင်ကောက်)",
+        "Postal Code": "8231",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Magway",
+        "Township": "Magway (မကွေး)",
+        "Postal Code": "4011",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Pyay",
+        "Township": "Padaung (ပန်းတောင်း)",
+        "Postal Code": "8171",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Thayarwady",
+        "Township": "Letpadan (လက်ပံတန်း)",
+        "Postal Code": "8271",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Magway",
+        "Township": "Yenangyaung (ရေနံချောင်း)",
+        "Postal Code": "4161",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Thayarwady",
+        "Township": "Okpho (အုတ်ဖို)",
+        "Postal Code": "8251",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Magway",
+        "Township": "Chauk (ချောက်)",
+        "Postal Code": "4171",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Thayarwady",
+        "Township": "Monyo (မိုးညို)",
+        "Postal Code": "8241",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Pyay",
+        "Township": "Paungde (ပေါင်းတည်)",
+        "Postal Code": "8201",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Bago (West) (ပဲခူးတိုင်းဒေသကြီး (အနောက်))",
+        "District": "Thayarwady",
+        "Township": "Zigon (ဇီးကုန်း)",
+        "Postal Code": "8221",
+        "City EN": "Pyay",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Thayet",
+        "Township": "Sinbaungwe (ဆင်ပေါင်ဝဲ)",
+        "Postal Code": "4081",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Thayet",
+        "Township": "Aunglan (အောင်လံ)",
+        "Postal Code": "4151",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Magway",
+        "Township": "Natmauk (နတ်မောက်)",
+        "Postal Code": "4121",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Thayet",
+        "Township": "Thayet (သရက်)",
+        "Postal Code": "4091",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Minbu",
+        "Township": "Sidoktaya (စေတုတ္ထရာ)",
+        "Postal Code": "4051",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Thayet",
+        "Township": "Kamma (ကံမ)",
+        "Postal Code": "4111",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Thayet",
+        "Township": "Minhla (မင်းလှ)",
+        "Postal Code": "4071",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Pakokku",
+        "Township": "Pakokku (ပခုက္ကူ)",
+        "Postal Code": "4201",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Magway",
+        "Township": "Taungdwingyi (တောင်တွင်းကြီး)",
+        "Postal Code": "4141",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Minbu",
+        "Township": "Pwintbyu (ပွင့်ဖြူ)",
+        "Postal Code": "4031",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Minbu",
+        "Township": "Ngape (ငဖဲ)",
+        "Postal Code": "4061",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Pakokku",
+        "Township": "Myaing (မြိုင်)",
+        "Postal Code": "4191",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Thayet",
+        "Township": "Mindon (မင်းတုန်း)",
+        "Postal Code": "4101",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Magway",
+        "Township": "Myothit (မြို့သစ်)",
+        "Postal Code": "4131",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Minbu",
+        "Township": "Minbu (မင်းဘူး)",
+        "Postal Code": "4021",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Minbu",
+        "Township": "Salin (စလင်း)",
+        "Postal Code": "4041",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Pakokku",
+        "Township": "Yesagyo (ရေစကြို)",
+        "Postal Code": "4181",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Gangaw",
+        "Township": "Tilin (ထီးလင်း)",
+        "Postal Code": "4221",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Mandalay",
+        "Township": "Mahaaungmyay (မဟာအောင်မြေ)",
+        "Postal Code": "5031",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Pyinoolwin",
+        "Township": "Pyinoolwin (ပြင်ဦးလွင်)",
+        "Postal Code": "5081",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Mandalay",
+        "Township": "Aungmyaythazan (အောင်မြေသာစံ)",
+        "Postal Code": "5011",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Mandalay",
+        "Township": "Chanayethazan (ချမ်းအေးသာစံ)",
+        "Postal Code": "5021",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Pakokku",
+        "Township": "Seikphyu (ဆိပ်ဖြူ)",
+        "Postal Code": "4251",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Gangaw",
+        "Township": "Saw (ဆော)",
+        "Postal Code": "4241",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Pakokku",
+        "Township": "Pauk (ပေါက်)",
+        "Postal Code": "4231",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Mandalay",
+        "Township": "Pyigyitagon (ပြည်ကြီးတံခွန်)",
+        "Postal Code": "5051",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Mandalay",
+        "Township": "Patheingyi (ပုသိမ်ကြီး)",
+        "Postal Code": "5071",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Mandalay",
+        "Township": "Chanmyathazi (ချမ်းမြသာစည်)",
+        "Postal Code": "5041",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Pyinoolwin",
+        "Township": "Madaya (မတ္တရာ)",
+        "Postal Code": "5121",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Magway (မကွေးတိုင်းဒေသကြီး)",
+        "District": "Gangaw",
+        "Township": "Gangaw (ဂန့်ဂေါ)",
+        "Postal Code": "4211",
+        "City EN": "Magway",
+        "City MM": "မကွေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Mandalay",
+        "Township": "Amarapura (အမရပူရ)",
+        "Postal Code": "5061",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Pyinoolwin",
+        "Township": "Singu (စဉ့်ကူး)",
+        "Postal Code": "5111",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Pyinoolwin",
+        "Township": "Mogoke (မိုးကုတ်)",
+        "Postal Code": "5091",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Kyaukse",
+        "Township": "Myittha (မြစ်သား)",
+        "Postal Code": "5161",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Myingyan",
+        "Township": "Natogyi (နွားထိုးကြီး)",
+        "Postal Code": "5261",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Kyaukse",
+        "Township": "Kyaukse (ကျောက်ဆည်)",
+        "Postal Code": "5143",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Myingyan",
+        "Township": "Ngazun (ငါန်းဇွန်)",
+        "Postal Code": "5281",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Pyinoolwin",
+        "Township": "Thabeikkyin (သပိတ်ကျင်း)",
+        "Postal Code": "5101",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Myingyan",
+        "Township": "Myingyan (မြင်းခြံ)",
+        "Postal Code": "5251",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Kyaukse",
+        "Township": "Tada-U (တံတားဦး)",
+        "Postal Code": "5131",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Myingyan",
+        "Township": "Taungtha (တောင်သာ)",
+        "Postal Code": "5271",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Kyaukse",
+        "Township": "Sintgaing (စဉ့်ကိုင်)",
+        "Postal Code": "5141",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Nyaung-U",
+        "Township": "Kyaukpadaung (ကျောက်ပန်းတောင်း)",
+        "Postal Code": "5241",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mon (မွန်ပြည်နယ်)",
+        "District": "Mawlamyine",
+        "Township": "Mudon (မုဒုံ)",
+        "Postal Code": "12081",
+        "City EN": "Mawlamyine",
+        "City MM": "မော်လမြိုင်"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Yamethin",
+        "Township": "Pyawbwe (ပျော်ဘွယ်)",
+        "Postal Code": "5211",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Nyaung-U",
+        "Township": "Nyaung-U (ညောင်ဦး)",
+        "Postal Code": "5231",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Meiktila",
+        "Township": "Wundwin (ဝမ်းတွင်း)",
+        "Postal Code": "5171",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mon (မွန်ပြည်နယ်)",
+        "District": "Thaton",
+        "Township": "Paung (ပေါင်)",
+        "Postal Code": "12051",
+        "City EN": "Mawlamyine",
+        "City MM": "မော်လမြိုင်"
+    },
+    {
+        "Region": "Mon (မွန်ပြည်နယ်)",
+        "District": "Mawlamyine",
+        "Township": "Chaungzon (ချောင်းဆုံ)",
+        "Postal Code": "12061",
+        "City EN": "Mawlamyine",
+        "City MM": "မော်လမြိုင်"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Meiktila",
+        "Township": "Mahlaing (မလှိုင်)",
+        "Postal Code": "5201",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Meiktila",
+        "Township": "Meiktila (မိတ္ထီလာ)",
+        "Postal Code": "5181",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Meiktila",
+        "Township": "Thazi (သာစည်)",
+        "Postal Code": "5191",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mon (မွန်ပြည်နယ်)",
+        "District": "Mawlamyine",
+        "Township": "Mawlamyine (မော်လမြိုင်)",
+        "Postal Code": "12011",
+        "City EN": "Mawlamyine",
+        "City MM": "မော်လမြိုင်"
+    },
+    {
+        "Region": "Mandalay (မန္တလေးတိုင်းဒေသကြီး)",
+        "District": "Yamethin",
+        "Township": "Yamethin (ရမည်းသင်း)",
+        "Postal Code": "5221",
+        "City EN": "Mandalay",
+        "City MM": "မန္တလေး"
+    },
+    {
+        "Region": "Mon (မွန်ပြည်နယ်)",
+        "District": "Mawlamyine",
+        "Township": "Kyaikmaraw (ကျိုက်မရော)",
+        "Postal Code": "12071",
+        "City EN": "Mawlamyine",
+        "City MM": "မော်လမြိုင်"
+    },
+    {
+        "Region": "Mon (မွန်ပြည်နယ်)",
+        "District": "Thaton",
+        "Township": "Thaton (သထုံ)",
+        "Postal Code": "12041",
+        "City EN": "Mawlamyine",
+        "City MM": "မော်လမြိုင်"
+    },
+    {
+        "Region": "Mon (မွန်ပြည်နယ်)",
+        "District": "Mawlamyine",
+        "Township": "Thanbyuzayat (သံဖြူဇရပ်)",
+        "Postal Code": "12091",
+        "City EN": "Mawlamyine",
+        "City MM": "မော်လမြိုင်"
+    },
+    {
+        "Region": "Mon (မွန်ပြည်နယ်)",
+        "District": "Mawlamyine",
+        "Township": "Ye (ရေး)",
+        "Postal Code": "12101",
+        "City EN": "Mawlamyine",
+        "City MM": "မော်လမြိုင်"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Sittwe",
+        "Township": "Pauktaw (ပေါက်တော)",
+        "Postal Code": "7081",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Kyaukpyu",
+        "Township": "Kyaukpyu (ကျောက်ဖြူ)",
+        "Postal Code": "7121",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Sittwe",
+        "Township": "Sittwe (စစ်တွေ)",
+        "Postal Code": "7011",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Sittwe",
+        "Township": "Rathedaung (ရသေ့တောင်)",
+        "Postal Code": "7032",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Maungdaw",
+        "Township": "Buthidaung (ဘူးသီးတောင်)",
+        "Postal Code": "7031",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Mon (မွန်ပြည်နယ်)",
+        "District": "Thaton",
+        "Township": "Bilin (ဘီးလင်း)",
+        "Postal Code": "12031",
+        "City EN": "Mawlamyine",
+        "City MM": "မော်လမြိုင်"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Maungdaw",
+        "Township": "Maungdaw (မောင်တော)",
+        "Postal Code": "7021",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Kyaukpyu",
+        "Township": "Ramree (ရမ်းဗြဲ)",
+        "Postal Code": "7131",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Kyaukpyu",
+        "Township": "Munaung (မာန်အောင်)",
+        "Postal Code": "7141",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Sittwe",
+        "Township": "Ponnagyun (ပုဏ္ဏားကျွန်း)",
+        "Postal Code": "7051",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Mon (မွန်ပြည်နယ်)",
+        "District": "Thaton",
+        "Township": "Kyaikto (ကျိုက်ထို)",
+        "Postal Code": "12021",
+        "City EN": "Mawlamyine",
+        "City MM": "မော်လမြိုင်"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Mrauk-U",
+        "Township": "Myebon (မြေပုံ)",
+        "Postal Code": "7111",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (North)",
+        "Township": "Mingaladon (မင်္ဂလာဒုံ)",
+        "Postal Code": "11021",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (North)",
+        "Township": "Insein (အင်းစိန်)",
+        "Postal Code": "11011",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Thandwe",
+        "Township": "Gwa (ဂွ)",
+        "Postal Code": "7181",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (North)",
+        "Township": "Taikkyi (တိုက်ကြီး)",
+        "Postal Code": "11131",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (North)",
+        "Township": "Hmawbi (မှော်ဘီ)",
+        "Postal Code": "11101",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Kyaukpyu",
+        "Township": "Ann (အမ်း)",
+        "Postal Code": "7151",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Mrauk-U",
+        "Township": "Kyauktaw (ကျောက်တော်)",
+        "Postal Code": "7061",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Thandwe",
+        "Township": "Toungup (တောင်ကုတ်)",
+        "Postal Code": "7161",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (North)",
+        "Township": "Htantabin (ထန်းတပင်)",
+        "Postal Code": "8131",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Thandwe",
+        "Township": "Thandwe (သံတွဲ)",
+        "Postal Code": "7171",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Mrauk-U",
+        "Township": "Mrauk-U (မြောက်ဦး)",
+        "Postal Code": "7092",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Rakhine (ရခိုင်ပြည်နယ်)",
+        "District": "Mrauk-U",
+        "Township": "Minbya (မင်းပြား)",
+        "Postal Code": "7091",
+        "City EN": "Sittwe",
+        "City MM": "ဟားခါး"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (North)",
+        "Township": "Hlegu (လှည်းကူး)",
+        "Postal Code": "11061",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Botahtaung (ဗိုလ်တထောင်)",
+        "Postal Code": "11161",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Thaketa (သာကေတ)",
+        "Postal Code": "11231",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Pazundaung (ပုဇွန်တောင်)",
+        "Postal Code": "11171",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "North Okkalapa (မြောက်ဥက္ကလာပ)",
+        "Postal Code": "11031",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (North)",
+        "Township": "Hlaingtharya (လှိုင်သာယာ)",
+        "Postal Code": "11401",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Dagon Myothit (East) (ဒဂုံမြို့သစ် (အရှေ့ပိုင်း))",
+        "Postal Code": "11451",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (North)",
+        "Township": "Shwepyithar (ရွှေပြည်သာ)",
+        "Postal Code": "11411",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Thingangyun (သင်္ဃန်းကျွန်း)",
+        "Postal Code": "11071",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Dagon Myothit (North) (ဒဂုံမြို့သစ် (မြောက်ပိုင်း))",
+        "Postal Code": "11421",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Yankin (ရန်ကင်း)",
+        "Postal Code": "11081",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Tamwe (တာမွေ)",
+        "Postal Code": "11211",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Dagon Myothit (South) (ဒဂုံမြို့သစ် (တောင်ပိုင်း))",
+        "Postal Code": "11431",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (North)",
+        "Township": "Hlaingtharya (West) (လှိုင်သာယာ (အနောက်ပိုင်း))",
+        "Postal Code": "11401",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "South Okkalapa (တောင်ဥက္ကလာပ)",
+        "Postal Code": "11091",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Dawbon (ဒေါပုံ)",
+        "Postal Code": "11241",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (North)",
+        "Township": "Hlaingtharya (East) (လှိုင်သာယာ (အရှေ့ပိုင်း))",
+        "Postal Code": "11411",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Mingalartaungnyunt (မင်္ဂလာတောင်ညွန့်)",
+        "Postal Code": "11221",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (East)",
+        "Township": "Dagon Myothit (Seikkan) (ဒဂုံမြို့သစ် (ဆိပ်ကမ်း))",
+        "Postal Code": "11441",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Latha (လသာ)",
+        "Postal Code": "11141",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (South)",
+        "Township": "Twantay (တွံတေး)",
+        "Postal Code": "11261",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (South)",
+        "Township": "Kungyangon (ကွမ်းခြံကုန်း)",
+        "Postal Code": "11251",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (South)",
+        "Township": "Seikgyikanaungto (ဆိပ်ကြီး/ခနောင်တို)",
+        "Postal Code": "11221",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Kyauktada (ကျောက်တံတား)",
+        "Postal Code": "11182",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Kyeemyindaing (ကြည့်မြင်တိုင်)",
+        "Postal Code": "11101",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (South)",
+        "Township": "Thanlyin (သန်လျင်)",
+        "Postal Code": "11291",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (South)",
+        "Township": "Kawhmu (ကော့မှူး)",
+        "Postal Code": "11231",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Lanmadaw (လမ်းမတော်)",
+        "Postal Code": "11131",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (South)",
+        "Township": "Cocokyun (ကိုကိုးကျွန်း)",
+        "Postal Code": "11241",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (South)",
+        "Township": "Thongwa (သုံးခွ)",
+        "Postal Code": "11271",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Sanchaung (စမ်းချောင်း)",
+        "Postal Code": "11111",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (South)",
+        "Township": "Dala (ဒလ)",
+        "Postal Code": "11211",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (South)",
+        "Township": "Kayan (ခရမ်း)",
+        "Postal Code": "11281",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Pabedan (ပန်းဘဲတန်း)",
+        "Postal Code": "11141",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (South)",
+        "Township": "Kyauktan (ကျောက်တန်း)",
+        "Postal Code": "6093",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Ahlone (အလုံ)",
+        "Postal Code": "11121",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Hlaing (လှိုင်)",
+        "Postal Code": "11051",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Taunggyi",
+        "Township": "Kalaw (ကလော)",
+        "Postal Code": "6021",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Taunggyi",
+        "Township": "Lawksawk (ရပ်စောက်)",
+        "Postal Code": "6071",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Loilen",
+        "Township": "Nansang (နမ့်စန်)",
+        "Postal Code": "6161",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Loilen",
+        "Township": "Kunhing (ကွန်ဟိန်း)",
+        "Postal Code": "6211",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Kamaryut (ကမာရွတ်)",
+        "Postal Code": "11041",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Taunggyi",
+        "Township": "Nyaungshwe (ညောင်ရွှေ)",
+        "Postal Code": "6081",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Loilen",
+        "Township": "Laihka (လဲချား)",
+        "Postal Code": "6121",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Loilen",
+        "Township": "Loilen (လွိုင်လင်)",
+        "Postal Code": "6111",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Taunggyi",
+        "Township": "Taunggyi (တောင်ကြီး)",
+        "Postal Code": "6011",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Bahan (ဗဟန်း)",
+        "Postal Code": "11201",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Seikkan (ဆိပ်ကမ်း)",
+        "Postal Code": "11191",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Loilen",
+        "Township": "Mayangone (မရမ်းကုန်း)",
+        "Postal Code": "11061",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Mayangone (မရမ်းကုန်း)",
+        "Postal Code": "11061",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Yangon (ရန်ကုန်တိုင်းဒေသကြီး)",
+        "District": "Yangon (West)",
+        "Township": "Dagon (ဒဂုံ)",
+        "Postal Code": "11191",
+        "City EN": "Yangon",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Taunggyi",
+        "Township": "Pekon (ဖယ်ခုံ)",
+        "Postal Code": "6061",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Loilen",
+        "Township": "Mongkaing (မိုင်းကိုင်)",
+        "Postal Code": "6131",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Loilen",
+        "Township": "Monghsu (မိုင်းရှူး)",
+        "Postal Code": "6141",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Lashio",
+        "Township": "Kunlong (ကွမ်းလုံ)",
+        "Postal Code": "6381",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Danu Self-Administered Zone",
+        "Township": "Pindaya (ပင်းတယ)",
+        "Postal Code": "6031",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Muse",
+        "Township": "Muse (မူဆယ်)",
+        "Postal Code": "6401",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Langkho",
+        "Township": "Mongnai (မိုးနဲ)",
+        "Postal Code": "6171",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Lashio",
+        "Township": "Mongyai (မိုင်းရယ်)",
+        "Postal Code": "6421",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Lashio",
+        "Township": "Lashio (လားရှိုး)",
+        "Postal Code": "6301",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Langkho",
+        "Township": "Mawkmai (မောက်မယ်)",
+        "Postal Code": "6181",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Langkho",
+        "Township": "Mongpan (မိုင်းပန်)",
+        "Postal Code": "6201",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Langkho",
+        "Township": "Langkho (လင်းခေး)",
+        "Postal Code": "6191",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Danu Self-Administered Zone",
+        "Township": "Ywangan (ရွာငံ)",
+        "Postal Code": "6041",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Pa-O Self-Administered Zone",
+        "Township": "Hopong (ဟိုပုံး)",
+        "Postal Code": "6091",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Pa-O Self-Administered Zone",
+        "Township": "Hsihseng (ဆီဆိုင်)",
+        "Postal Code": "6101",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Lashio",
+        "Township": "Hseni (သိန္နီ)",
+        "Postal Code": "6361",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Lashio",
+        "Township": "Tangyan (တန့်ယန်း)",
+        "Postal Code": "6431",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (South) (ရှမ်းပြည်နယ် (တောင်))",
+        "District": "Pa-O Self-Administered Zone",
+        "Township": "Pinlaung (ပင်လောင်း)",
+        "Postal Code": "6051",
+        "City EN": "Taunggyi",
+        "City MM": "တောင်ကြီး"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Muse",
+        "Township": "Kutkai (ကွတ်ခိုင်)",
+        "Postal Code": "6372",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Kyaukme",
+        "Township": "Hsipaw (သီပေါ)",
+        "Postal Code": "6341",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Kyaukme",
+        "Township": "Namtu (နမ္မတူ)",
+        "Postal Code": "6352",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Hopang",
+        "Township": "Pangwaun (ပန်ဝိုင်)",
+        "Postal Code": "6111",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Kyaukme",
+        "Township": "Kyaukme (ကျောက်မဲ)",
+        "Postal Code": "6321",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Muse",
+        "Township": "Namhkan (နမ့်ခမ်း)",
+        "Postal Code": "6411",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Kyaukme",
+        "Township": "Nawnghkio (နောင်ချို)",
+        "Postal Code": "6311",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Laukkaing (Kokang SAZ)",
+        "Township": "Chinshwehaw Sub-township (Kokang SAZ) (ချင်းရွှေဟော်မြို့နယ်ခွဲ (အထူးဒေသ ၁))",
+        "Postal Code": "6482",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Hopang",
+        "Township": "Hopang (ဟိုပန်)",
+        "Postal Code": "6391",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Hkun Mar (Hkwin Ma) (ခွန်းမား)",
+        "Postal Code": "6121",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Nar Wee (Na Wi) (နာဝီး)",
+        "Postal Code": "6131",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mongmit",
+        "Township": "Mongmit (မိုးမိတ်)",
+        "Postal Code": "6061",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Man Tun (မန်တွန်း)",
+        "Postal Code": "6071",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Kawng Min Hsang (ကောင်မင်ဆန်း)",
+        "Postal Code": "6081",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Matman",
+        "Township": "Pangsang (Panghkam) (ပန်ဆန်း (ပန်ခမ်း))",
+        "Postal Code": "6091",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Laukkaing (Kokang SAZ)",
+        "Township": "Konkyan (Kokang SAZ) (ကုန်းကြမ်း (အထူးဒေသ ၁))",
+        "Postal Code": "6101",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Matman",
+        "Township": "Matman (မက်မန်း)",
+        "Postal Code": "6111",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Hopang",
+        "Township": "Mongmao (မိုင်းမော)",
+        "Postal Code": "6121",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Hsawng Hpa (Saun Pha) (ဆောင်ဖ)",
+        "Postal Code": "6131",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Matman",
+        "Township": "Narphan (နားဖန်း)",
+        "Postal Code": "6141",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Nam Tit (နမ့် တစ်)",
+        "Postal Code": "6392",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Laukkaing (Kokang SAZ)",
+        "Township": "Laukkaing (Kokang SAZ) (လောက်ကိုင် (အထူးဒေသ ၁))",
+        "Postal Code": "6151",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mongmit",
+        "Township": "Mabein (မဘိမ်း)",
+        "Postal Code": "6051",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Yawng Lin (ယောင်လင်း)",
+        "Postal Code": "6061",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Long Htan (လုံထန်)",
+        "Postal Code": "6071",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Wein Kawng (Wein Kao) (Wa SAD)",
+        "Township": "Man Man Hseng (မန်မန်ဆိုင်)",
+        "Postal Code": "6081",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Yin Pang (ရင်ဖန့်)",
+        "Postal Code": "6091",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Wein Kawng (Wein Kao) (Wa SAD)",
+        "Township": "Nar Kawng (နားကောင်)",
+        "Postal Code": "6101",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Ka Lawng Hpar (ကလောင်ဖါ)",
+        "Postal Code": "6111",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Kokang Self-Administered Zone",
+        "Township": "Konkyan (ကုန်းကြမ်း)",
+        "Postal Code": "6531",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Wein Kawng (Wein Kao) (Wa SAD)",
+        "Township": "Pang Hkam (ပန်ခမ့်)",
+        "Postal Code": "6121",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Wein Kawng (Wein Kao) (Wa SAD)",
+        "Township": "Nam Hkam Wu (နမ်ခမ်းဝူး)",
+        "Postal Code": "6131",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Pa Laung Self-Administered Zone",
+        "Township": "Namhsan (နမ့်ဆန်)",
+        "Postal Code": "6331",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Wein Kawng (Wein Kao) (Wa SAD)",
+        "Township": "Pang Yang (ပန်ယန်း)",
+        "Postal Code": "6141",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Kokang Self-Administered Zone",
+        "Township": "Laukkaing (လောက်ကိုင်)",
+        "Postal Code": "6481",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Lin Haw (လင်ဟော်)",
+        "Postal Code": "6151",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Wein Kawng (Wein Kao) (Wa SAD)",
+        "Township": "Nawng Hkit (နောင်ခစ်)",
+        "Postal Code": "6161",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Mong Maw (Wa SAD)",
+        "Township": "Aik Chan (Ai' Chun) (အိုက်ချန်)",
+        "Postal Code": "6171",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (North) (ရှမ်းပြည်နယ် (မြောက်))",
+        "District": "Pa Laung Self-Administered Zone",
+        "Township": "Manton (မန်တုံ)",
+        "Postal Code": "6541",
+        "City EN": "Lashio",
+        "City MM": "ရန်ကုန်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Kengtung",
+        "Township": "Kengtung (ကျိုင်းတုံ)",
+        "Postal Code": "6231",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Tachileik",
+        "Township": "Mongyawng (မိုင်းယောင်း)",
+        "Postal Code": "6261",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Mong Pawk (Wa SAD)",
+        "Township": "Mong Hpen (မိုင်းဖျန်)",
+        "Postal Code": "6181",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Kengtung",
+        "Township": "Mongla (မိုင်းလား)",
+        "Postal Code": "6232",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Kengtung",
+        "Township": "Mongkhet (မိုင်းခတ်)",
+        "Postal Code": "6471",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Tachileik",
+        "Township": "Monghpyak (မိုင်းဖြတ်)",
+        "Postal Code": "6251",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Mong Pawk (Wa SAD)",
+        "Township": "Mong Pawk (မိုင်းပေါက်)",
+        "Postal Code": "6191",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Kengtung",
+        "Township": "Mongyang (မိုင်းယန်း)",
+        "Postal Code": "6241",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Monghsat",
+        "Township": "Mongton (မိုင်းတုံ)",
+        "Postal Code": "6011",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Kengtung",
+        "Township": "Mongping (မိုင်းပျဉ်း)",
+        "Postal Code": "6221",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Tachileik",
+        "Township": "Tachileik (တာချီလိတ်)",
+        "Postal Code": "6271",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Monghsat",
+        "Township": "Monghsat (မိုင်းဆတ်)",
+        "Postal Code": "6021",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Mong Pawk (Wa SAD)",
+        "Township": "Ho Tawng (Ho Tao) (ဟိုတောင်း)",
+        "Postal Code": "6263",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Mong Pawk (Wa SAD)",
+        "Township": "Mong Kar (မိုင်းကာ)",
+        "Postal Code": "6031",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Pathein",
+        "Township": "Kyonpyaw (ကျုံပျော်)",
+        "Postal Code": "10091",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Pathein",
+        "Township": "Pathein (ပုသိမ်)",
+        "Postal Code": "10011",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Hinthada",
+        "Township": "Ingapu (အင်္ဂပူ)",
+        "Postal Code": "10051",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Pathein",
+        "Township": "Thabaung (သာပေါင်း)",
+        "Postal Code": "10111",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Hinthada",
+        "Township": "Myanaung (မြန်အောင်)",
+        "Postal Code": "10041",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Hinthada",
+        "Township": "Kyangin (ကြံခင်း)",
+        "Postal Code": "10031",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Myaungmya",
+        "Township": "Einme (အိမ်မဲ)",
+        "Postal Code": "10191",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Hinthada",
+        "Township": "Zalun (ဇလွန်)",
+        "Postal Code": "10141",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Pathein",
+        "Township": "Kangyidaunt (ကန်ကြီးထောင့်)",
+        "Postal Code": "10021",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Hinthada",
+        "Township": "Lemyethna (လေးမျက်နှာ)",
+        "Postal Code": "10071",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Pathein",
+        "Township": "Ngapudaw (ငပုတော)",
+        "Postal Code": "10131",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Pathein",
+        "Township": "Kyaunggon (ကျောင်းကုန်း)",
+        "Postal Code": "6041",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Hinthada",
+        "Township": "Hinthada (ဟင်္သာတ)",
+        "Postal Code": "10061",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Myaungmya",
+        "Township": "Myaungmya (မြောင်းမြ)",
+        "Postal Code": "10211",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Pathein",
+        "Township": "Yegyi (ရေကြည်)",
+        "Postal Code": "10081",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Shan (East) (ရှမ်းပြည်နယ် (အရှေ့))",
+        "District": "Mong Pawk (Wa SAD)",
+        "Township": "Nam Hpai (နမ့်ဖိုင်)",
+        "Postal Code": "6051",
+        "City EN": "Tachileik",
+        "City MM": "လွိုင်ကော်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Myaungmya",
+        "Township": "Wakema (ဝါးခယ်မ)",
+        "Postal Code": "10201",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Nay Pyi Taw (နေပြည်တော်)",
+        "District": "Oke Ta Ra",
+        "Township": "Zay Yar Thi Ri (ဇေယျာသီရိ)",
+        "Postal Code": "15011",
+        "City EN": "Nay Pyi Taw",
+        "City MM": "နေပြည်တော်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Labutta",
+        "Township": "Mawlamyinegyun (မော်လမြိုင်ကျွန်း)",
+        "Postal Code": "10122",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Pyapon",
+        "Township": "Pyapon (ဖျာပုံ)",
+        "Postal Code": "10251",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Nay Pyi Taw (နေပြည်တော်)",
+        "District": "Oke Ta Ra",
+        "Township": "Tatkon (တပ်ကုန်း)",
+        "Postal Code": "15021",
+        "City EN": "Nay Pyi Taw",
+        "City MM": "နေပြည်တော်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Pyapon",
+        "Township": "Kyaiklat (ကျိုက်လတ်)",
+        "Postal Code": "10241",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Nay Pyi Taw (နေပြည်တော်)",
+        "District": "Oke Ta Ra",
+        "Township": "Poke Ba Thi Ri (ပုဗ္ဗသီရိ)",
+        "Postal Code": "15031",
+        "City EN": "Nay Pyi Taw",
+        "City MM": "နေပြည်တော်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Pyapon",
+        "Township": "Dedaye (ဒေးဒရဲ)",
+        "Postal Code": "10261",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Maubin",
+        "Township": "Pantanaw (ပန်းတနော်)",
+        "Postal Code": "10171",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Maubin",
+        "Township": "Maubin (မအူပင်)",
+        "Postal Code": "10181",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Pyapon",
+        "Township": "Bogale (ဘိုကလေး)",
+        "Postal Code": "10231",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Maubin",
+        "Township": "Danubyu (ဓနုဖြူ)",
+        "Postal Code": "10151",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Maubin",
+        "Township": "Nyaungdon (ညောင်တုန်း)",
+        "Postal Code": "10161",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Nay Pyi Taw (နေပြည်တော်)",
+        "District": "Oke Ta Ra",
+        "Township": "Oke Ta Ra Thi Ri (ဥတ္တရသီရိ)",
+        "Postal Code": "15041",
+        "City EN": "Nay Pyi Taw",
+        "City MM": "နေပြည်တော်"
+    },
+    {
+        "Region": "Ayeyarwady (ဧရာဝတီတိုင်းဒေသကြီး)",
+        "District": "Labutta",
+        "Township": "Labutta (လပွတ္တာ)",
+        "Postal Code": "10121",
+        "City EN": "Pathein",
+        "City MM": "ပုသိမ်"
+    },
+    {
+        "Region": "Nay Pyi Taw (နေပြည်တော်)",
+        "District": "Det Khi Na",
+        "Township": "Det Khi Na Thi Ri (ဒက္ခိဏသီရိ)",
+        "Postal Code": "15051",
+        "City EN": "Nay Pyi Taw",
+        "City MM": "နေပြည်တော်"
+    },
+    {
+        "Region": "Nay Pyi Taw (နေပြည်တော်)",
+        "District": "Det Khi Na",
+        "Township": "Lewe (လယ်ဝေး)",
+        "Postal Code": "15061",
+        "City EN": "Nay Pyi Taw",
+        "City MM": "နေပြည်တော်"
+    },
+    {
+        "Region": "Nay Pyi Taw (နေပြည်တော်)",
+        "District": "Det Khi Na",
+        "Township": "Pyinmana (ပျဉ်းမနား)",
+        "Postal Code": "15071",
+        "City EN": "Nay Pyi Taw",
+        "City MM": "နေပြည်တော်"
+    },
+    {
+        "Region": "Nay Pyi Taw (နေပြည်တော်)",
+        "District": "Det Khi Na",
+        "Township": "Za Bu Thi Ri (ဇမ္ဗူသီရိ)",
+        "Postal Code": "15081",
+        "City EN": "Nay Pyi Taw",
+        "City MM": "နေပြည်တော်"
+    },
+    {
+        "Region": "Bago (East) (ပဲခူးတိုင်းဒေသကြီး (အရှေ့))",
+        "District": "Bago",
+        "Township": "Inntakaw",
+        "Postal Code": "8101",
+        "City EN": "Bago",
+        "City MM": "ပဲခူး"
+    }
+]
