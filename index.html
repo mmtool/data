@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
+    <title>ShwePay | Merchant Onboarding</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #f0f2f5;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            padding: 12px;
+        }
+        .card {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .header {
+            padding: 18px 20px 12px;
+            border-bottom: 1px solid #e4e6eb;
+        }
+        .header h1 { font-size: 1.5rem; font-weight: 600; color: #050505; }
+        .header p { font-size: 0.75rem; color: #65676b; margin-top: 2px; }
+        .steps {
+            display: flex;
+            padding: 12px 20px 0;
+            gap: 8px;
+            border-bottom: 1px solid #eef2f5;
+        }
+        .step-badge {
+            flex: 1;
+            text-align: center;
+            padding: 8px 0;
+            font-size: 0.75rem;
+            font-weight: 500;
+            background: #f0f2f5;
+            border-radius: 40px;
+            color: #4b4f56;
+            transition: 0.2s;
+        }
+        .step-badge.active { background: #1b74e4; color: white; }
+        .step-badge.completed { background: #e4e6eb; color: #1b74e4; }
+        form { padding: 20px; }
+        .step { display: none; animation: fade 0.2s ease; }
+        .step.active-step { display: block; }
+        @keyframes fade { from { opacity: 0; transform: translateY(6px);} to { opacity: 1; transform: translateY(0);} }
+        .section { margin-bottom: 24px; }
+        .section-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #1b74e4;
+            margin-bottom: 14px;
+            letter-spacing: -0.2px;
+        }
+        .form-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+        .form-group { flex: 1 1 100%; }
+        .form-group.title-group { flex: 0 0 90px; }
+        @media (min-width: 560px) {
+            .form-group { flex: 1 1 180px; min-width: 150px; }
+            .form-group.title-group { flex: 0 0 90px; min-width: 80px; }
+        }
+        label {
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: #4b4f56;
+            margin-bottom: 4px;
+            display: block;
+        }
+        .required:after { content: "*"; color: #e41e3f; margin-left: 4px; }
+        input, select, button {
+            width: 100%;
+            padding: 10px 12px;
+            font-size: 0.85rem;
+            border: 1px solid #ccd0d5;
+            border-radius: 10px;
+            background: white;
+            transition: 0.1s;
+        }
+        input:focus, select:focus {
+            border-color: #1b74e4;
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(27,116,228,0.2);
+        }
+        input[readonly] { background: #f5f6f7; }
+        button {
+            background: #1b74e4;
+            color: white;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+        }
+        button.secondary { background: #e4e6eb; color: #050505; }
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 24px;
+            gap: 12px;
+        }
+        .hint { font-size: 0.6rem; color: #8a8d91; margin-top: 4px; }
+        .json-preview, .table-preview {
+            background: #f7f9fa;
+            border-radius: 12px;
+            padding: 12px;
+            font-size: 0.75rem;
+            overflow-x: auto;
+            margin-top: 16px;
+            border: 1px solid #e4e6eb;
+        }
+        .table-preview table { width: 100%; border-collapse: collapse; font-size: 0.7rem; }
+        .table-preview td, .table-preview th {
+            border-bottom: 1px solid #e2e5e9;
+            padding: 8px 6px;
+            text-align: left;
+            vertical-align: top;
+        }
+        .preview-toggle {
+            display: flex;
+            gap: 12px;
+            margin: 16px 0 8px;
+        }
+        .preview-btn {
+            background: #eef2f5;
+            color: #1b74e4;
+            padding: 6px 12px;
+            font-size: 0.7rem;
+            border-radius: 20px;
+            border: none;
+        }
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.75rem;
+            font-weight: normal;
+            text-transform: none;
+            color: #1b74e4;
+            margin-bottom: 12px;
+        }
+        .checkbox-label input { width: 18px; height: 18px; margin: 0; }
+        @media (max-width: 480px) {
+            .card { border-radius: 12px; }
+            form { padding: 16px; }
+            .steps { padding: 8px 16px 0; }
+            .form-group.title-group { flex: 1 1 100%; }
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="header">
+        <h1>Merchant Onboarding</h1>
+        <p>ShwePay · complete application</p>
+    </div>
+    <div class="steps" id="stepIndicator">
+        <div class="step-badge active">1. Owner info</div>
+        <div class="step-badge">2. Business info</div>
+        <div class="step-badge">3. Documents & preview</div>
+    </div>
+
+    <form id="multiStepForm" action="https://script.google.com/macros/s/AKfycbzmFNy5B_zk_CI0RX2vc6N7YUjSRJF7QGSE9fYd1lx5wYI_miy2SD9EDK06N1Udu8Xa/exec" method="POST" enctype="multipart/form-data">
+        <!-- STEP 1: OWNER INFO -->
+        <div class="step active-step" id="step1">
+            <div class="section">
+                <div class="section-title">Personal details</div>
+                <div class="form-row">
+                    <div class="form-group"><label class="required">Phone</label><input type="tel" id="merchantPhone" name="merchantPhone" required placeholder="09XXXXXXXXX" value="09987654321"></div>
+                    <div class="form-group title-group"><label class="required">Title (EN)</label><select id="titleEn" name="titleEn" required><option value="">--</option><option value="U">U</option><option value="Daw">Daw</option></select></div>
+                    <div class="form-group"><label class="required">Last name (EN)</label><input type="text" id="lastNameEn" name="lastNameEn" required placeholder="Smith" value="Win"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label>Title (MM)</label><select id="titleMm" name="titleMm"><option value="">--</option><option value="ဦး">ဦး</option><option value="ဒေါ်">ဒေါ်</option></select></div>
+                    <div class="form-group"><label>Last name (MM)</label><input type="text" id="lastNameMm" name="lastNameMm" placeholder="စမစ်" value="ဝင်း"></div>
+                    <div class="form-group"><label class="required">Date of birth</label><input type="date" id="dob" name="dob" required value="1990-01-15"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label class="required">Father's name</label><input type="text" id="fatherName" name="fatherName" required placeholder="U Ba" value="U Mya"></div>
+                </div>
+                <input type="hidden" id="maritalStatus" name="maritalStatus" value="Single">
+                <input type="hidden" id="genderField" name="gender">
+                <input type="hidden" id="contactNumber" name="contactNumber">
+            </div>
+
+            <div class="section">
+                <div class="section-title">National ID (NRC)</div>
+                <div class="form-row">
+                    <div class="form-group"><label class="required">Prefix (No.)</label><select id="nrcPrefix" name="nrcPrefix" required><option value="">1–14</option></select></div>
+                    <div class="form-group"><label class="required">Township code</label><select id="nrcTsp" name="nrcTsp" required disabled><option>Select prefix</option></select></div>
+                    <div class="form-group"><label class="required">Type</label><select id="nrcType" name="nrcType" required><option value="">Type</option></select></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label class="required">NRC number (6 digits)</label><input type="text" id="nrcNumber" name="nrcNumber" maxlength="6" pattern="\d{6}" placeholder="160954" value="123456" required></div>
+                    <div class="form-group"><span class="hint">Format: 12/ma ga da(C)160954</span></div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Owner address</div>
+                <div class="form-row">
+                    <div class="form-group"><label class="required">Region</label><select id="ownerRegion" name="ownerRegion" required><option value="">Select region</option></select></div>
+                    <div class="form-group"><label class="required">District</label><input type="text" id="ownerDistrict" name="ownerDistrict" readonly placeholder="Auto from township"></div>
+                    <div class="form-group"><label class="required">Township</label><select id="ownerTownship" name="ownerTownship" required disabled><option>Select region first</option></select></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label>City (EN)</label><input type="text" id="ownerCityEn" name="ownerCityEn" readonly placeholder="Auto from township"></div>
+                    <div class="form-group"><label>City (MM)</label><input type="text" id="ownerCityMm" name="ownerCityMm" readonly placeholder="Auto from township"></div>
+                    <div class="form-group"><label>Postal Code</label><input type="text" id="ownerPostal" name="ownerPostal" readonly placeholder="Auto from township"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label>House No (EN)</label><input type="text" id="ownerHouseEn" name="ownerHouseEn" placeholder="12/A" value="42"></div>
+                    <div class="form-group"><label>Street (EN)</label><input type="text" id="ownerStreetEn" name="ownerStreetEn" placeholder="Main Rd" value="Shwe Bon Thar"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label>House No (MM)</label><input type="text" id="ownerHouseMm" name="ownerHouseMm" placeholder="၁၂/အေ" value="၄၂"></div>
+                    <div class="form-group"><label>Street (MM)</label><input type="text" id="ownerStreetMm" name="ownerStreetMm" placeholder="လမ်းမ" value="ရွှေဘုံသာ"></div>
+                </div>
+                <input type="hidden" id="ownerFullAddress" name="ownerFullAddress">
+                <input type="hidden" name="country" value="Myanmar">
+            </div>
+            <div class="nav-buttons">
+                <div></div>
+                <button type="button" id="nextStep1">Next →</button>
+            </div>
+        </div>
+
+        <!-- STEP 2: BUSINESS INFO -->
+        <div class="step" id="step2">
+            <div class="section">
+                <div class="section-title">Business details</div>
+                <div class="form-row">
+                    <div class="form-group"><label class="required">Merchant Label (EN)</label><input type="text" id="merchantLabelEn" name="merchantLabelEn" required placeholder="Golden Mart" value="Golden Win Mart"></div>
+                    <div class="form-group"><label class="required">Merchant Label (MM)</label><input type="text" id="merchantLabelMm" name="merchantLabelMm" required placeholder="ဂိုးလ်ဒင်မာ့ခ်" value="ရွှေဝင်းမာ့ခ်"></div>
+                </div>
+                <input type="hidden" id="companyNameEn" name="companyNameEn">
+                <input type="hidden" id="companyNameMm" name="companyNameMm">
+                <input type="hidden" id="shortNameEn" name="shortNameEn">
+                <input type="hidden" id="shortNameMm" name="shortNameMm">
+                <input type="hidden" id="businessName" name="businessName">
+                <div class="form-row">
+                    <div class="form-group"><label class="required">MCC Code</label><select id="mccCode" name="mccCode" required><option value="">Select MCC</option></select></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label class="required">DICA / GRN / RCDC</label><input type="text" id="businessReg" name="businessReg" required value="GRN-2024-001234"></div>
+                </div>
+                <input type="hidden" name="acquirer" value="Shwebank">
+                <input type="hidden" name="offer" value="Merchant">
+                <input type="hidden" name="email" value="merchant@mo.com.mm">
+            </div>
+
+            <div class="section">
+                <div class="section-title">Business location & GPS</div>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="sameAsOwnerCheckbox" checked> Same as owner address
+                </label>
+                <div class="form-row">
+                    <div class="form-group"><label class="required">Region</label><select id="busRegion" name="busRegion" required><option value="">Select region</option></select></div>
+                    <div class="form-group"><label class="required">District</label><input type="text" id="busDistrict" name="busDistrict" readonly placeholder="Auto from township"></div>
+                    <div class="form-group"><label class="required">Township</label><select id="busTownship" name="busTownship" required disabled><option>Select region first</option></select></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label>City (EN)</label><input type="text" id="busCityEn" name="busCityEn" readonly placeholder="Auto from township"></div>
+                    <div class="form-group"><label>City (MM)</label><input type="text" id="busCityMm" name="busCityMm" readonly placeholder="Auto from township"></div>
+                    <div class="form-group"><label>Postal Code</label><input type="text" id="busPostal" name="busPostal" readonly placeholder="Auto from township"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label>House No (EN)</label><input type="text" id="busHouseEn" name="busHouseEn" placeholder="Bldg 42" value="88"></div>
+                    <div class="form-group"><label>Street (EN)</label><input type="text" id="busStreetEn" name="busStreetEn" placeholder="Merchant St" value="Bogyoke Road"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label>House No (MM)</label><input type="text" id="busHouseMm" name="busHouseMm" placeholder="အဆောက်အအုံ" value="၈၈"></div>
+                    <div class="form-group"><label>Street (MM)</label><input type="text" id="busStreetMm" name="busStreetMm" placeholder="လမ်း" value="ဗိုလ်ချုပ်လမ်း"></div>
+                </div>
+                <input type="hidden" id="busFullAddress" name="busFullAddress">
+                <div class="form-row">
+                    <div class="form-group"><label class="required">Latitude</label><input type="text" id="latitude" name="latitude" value="45.5788" placeholder="Latitude" required></div>
+                    <div class="form-group"><label class="required">Longitude</label><input type="text" id="longitude" name="longitude" value="75.6897" placeholder="Longitude" required></div>
+                </div>
+            </div>
+            <div class="nav-buttons">
+                <button type="button" id="prevStep2" class="secondary">← Previous</button>
+                <button type="button" id="nextStep2">Next →</button>
+            </div>
+        </div>
+
+        <!-- STEP 3: DOCUMENTS + PREVIEW -->
+        <div class="step" id="step3">
+            <div class="section">
+                <div class="section-title">Supporting documents</div>
+                <div class="form-row">
+                    <div class="form-group"><label>Business registration</label><input type="file" name="docBusiness" accept=".pdf,.jpg,.png"></div>
+                    <div class="form-group"><label>Agreement / contract</label><input type="file" name="docAgreement" accept=".pdf,.jpg"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label>BOD list</label><input type="file" name="docBod" accept=".pdf,.jpg"></div>
+                    <div class="form-group"><label>Shop photo</label><input type="file" name="docShop" accept="image/*"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label>NRC front</label><input type="file" name="nrcFront"></div>
+                    <div class="form-group"><label>NRC back</label><input type="file" name="nrcBack"></div>
+                </div>
+            </div>
+
+            <div class="preview-toggle">
+                <button type="button" id="viewTableBtn" class="preview-btn">📊 Table view</button>
+                <button type="button" id="viewJsonBtn" class="preview-btn">📋 JSON view</button>
+            </div>
+            <div id="previewContainer"></div>
+
+            <div class="nav-buttons">
+                <button type="button" id="prevStep3" class="secondary">← Previous</button>
+                <button type="submit" id="finalSubmit">✓ Submit Onboarding</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    // ---------- GLOBAL DATA ----------
+    let nrcRaw = [];
+    let addressList = [];
+    let mccList = [];
+    let currentStep = 1;
+    let isSyncing = false;
+
+    async function fetchJSON(url) {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+    }
+
+    function collectAllData() {
+        const data = {};
+        const inputs = document.querySelectorAll('#multiStepForm input, #multiStepForm select');
+        inputs.forEach(el => {
+            let key = el.id || el.name;
+            if (!key) return;
+            if (el.type === 'file') {
+                data[key] = el.files.length ? el.files[0].name : null;
+            } else if (el.type === 'checkbox') {
+                data[key] = el.checked;
+            } else {
+                data[key] = el.value;
+            }
+        });
+        data['gender'] = document.getElementById('genderField')?.value || '';
+        data['contactNumber'] = document.getElementById('contactNumber')?.value || '';
+        data['ownerFullAddress'] = document.getElementById('ownerFullAddress')?.value || '';
+        data['busFullAddress'] = document.getElementById('busFullAddress')?.value || '';
+        data['nrcFormatted'] = `${document.getElementById('nrcPrefix').value}/${document.getElementById('nrcTsp').value}(${document.getElementById('nrcType').value})${document.getElementById('nrcNumber').value}`;
+        return data;
+    }
+
+    function updateOwnerFullAddress() {
+        const parts = [
+            document.getElementById('ownerHouseEn').value,
+            document.getElementById('ownerStreetEn').value,
+            document.getElementById('ownerTownship').options[document.getElementById('ownerTownship').selectedIndex]?.text || '',
+            document.getElementById('ownerCityEn').value,
+            document.getElementById('ownerPostal').value,
+            document.getElementById('ownerRegion').options[document.getElementById('ownerRegion').selectedIndex]?.text || '',
+            'Myanmar'
+        ].filter(v => v && v.trim());
+        document.getElementById('ownerFullAddress').value = parts.join(', ');
+    }
+
+    function updateBusinessFullAddress() {
+        const parts = [
+            document.getElementById('busHouseEn').value,
+            document.getElementById('busStreetEn').value,
+            document.getElementById('busTownship').options[document.getElementById('busTownship').selectedIndex]?.text || '',
+            document.getElementById('busCityEn').value,
+            document.getElementById('busPostal').value,
+            document.getElementById('busRegion').options[document.getElementById('busRegion').selectedIndex]?.text || '',
+            'Myanmar'
+        ].filter(v => v && v.trim());
+        document.getElementById('busFullAddress').value = parts.join(', ');
+    }
+
+    // Autofill helpers
+    function setupGenderAutofill() {
+        const titleEn = document.getElementById('titleEn');
+        const genderField = document.getElementById('genderField');
+        titleEn.addEventListener('change', () => {
+            genderField.value = titleEn.value === 'U' ? 'Male' : (titleEn.value === 'Daw' ? 'Female' : '');
+        });
+        genderField.value = titleEn.value === 'U' ? 'Male' : (titleEn.value === 'Daw' ? 'Female' : '');
+    }
+
+    function setupCompanyAutofill() {
+        const labelEn = document.getElementById('merchantLabelEn');
+        const labelMm = document.getElementById('merchantLabelMm');
+        const companyEn = document.getElementById('companyNameEn');
+        const companyMm = document.getElementById('companyNameMm');
+        const shortEn = document.getElementById('shortNameEn');
+        const shortMm = document.getElementById('shortNameMm');
+        const businessName = document.getElementById('businessName');
+        function update() {
+            companyEn.value = labelEn.value;
+            companyMm.value = labelMm.value;
+            shortEn.value = labelEn.value;
+            shortMm.value = labelMm.value;
+            businessName.value = labelEn.value;
+        }
+        labelEn.addEventListener('input', update);
+        labelMm.addEventListener('input', update);
+        update();
+    }
+
+    // NRC
+    function populateNrcPrefixes() {
+        const prefixSelect = document.getElementById('nrcPrefix');
+        prefixSelect.innerHTML = '<option value="">-- No. 1–14 --</option>';
+        for (let i = 1; i <= 14; i++) {
+            const opt = document.createElement('option');
+            opt.value = i;
+            opt.textContent = i;
+            prefixSelect.appendChild(opt);
+        }
+        prefixSelect.addEventListener('change', (e) => {
+            const selectedNo = parseInt(e.target.value);
+            const tspSelect = document.getElementById('nrcTsp');
+            tspSelect.innerHTML = '<option value="">-- Select township code --</option>';
+            if (!selectedNo) { tspSelect.disabled = true; return; }
+            const selectedItem = nrcRaw.find(item => item.No === selectedNo);
+            if (selectedItem?.township) {
+                selectedItem.township.forEach(tsp => {
+                    const opt = document.createElement('option');
+                    opt.value = tsp;
+                    opt.textContent = tsp.toUpperCase();
+                    tspSelect.appendChild(opt);
+                });
+                tspSelect.disabled = false;
+                if (selectedItem.township.length) tspSelect.value = selectedItem.township[0];
+            } else tspSelect.disabled = true;
+        });
+        setTimeout(() => { if (prefixSelect.options.length > 12) prefixSelect.value = "12"; prefixSelect.dispatchEvent(new Event('change')); }, 500);
+    }
+
+    function populateNrcTypes() {
+        const typeSet = new Set();
+        nrcRaw.forEach(item => { if (Array.isArray(item.type)) item.type.forEach(t => typeSet.add(t)); });
+        const typeSelect = document.getElementById('nrcType');
+        typeSelect.innerHTML = '<option value="">-- NRC type --</option>';
+        Array.from(typeSet).sort().forEach(t => {
+            const opt = document.createElement('option');
+            opt.value = t;
+            opt.textContent = t;
+            typeSelect.appendChild(opt);
+        });
+        setTimeout(() => { typeSelect.value = "C"; }, 500);
+    }
+
+    // Address system
+    function setupAddresses() {
+        const ownerRegion = document.getElementById('ownerRegion');
+        const ownerTownship = document.getElementById('ownerTownship');
+        const busRegion = document.getElementById('busRegion');
+        const busTownship = document.getElementById('busTownship');
+
+        const regionMap = new Map();
+        addressList.forEach(addr => { if (addr.Region) regionMap.set(addr.Region, addr.Region); });
+        const regions = Array.from(regionMap.keys()).sort();
+
+        const fillRegionSelect = (selectEl) => {
+            selectEl.innerHTML = '<option value="">-- Select region --</option>';
+            regions.forEach(r => {
+                const opt = document.createElement('option');
+                opt.value = r;
+                opt.textContent = r;
+                selectEl.appendChild(opt);
+            });
+        };
+        fillRegionSelect(ownerRegion);
+        fillRegionSelect(busRegion);
+
+        const getTownshipsForRegion = (region) => addressList.filter(a => a.Region === region);
+
+        ownerRegion.addEventListener('change', () => {
+            const region = ownerRegion.value;
+            ownerTownship.innerHTML = '<option value="">-- Select township --</option>';
+            if (!region) { ownerTownship.disabled = true; return; }
+            const towns = getTownshipsForRegion(region);
+            towns.forEach(t => {
+                const opt = document.createElement('option');
+                opt.value = t.Township;
+                opt.setAttribute('data-district', t.District || '');
+                opt.setAttribute('data-city-en', t["City EN"] || '');
+                opt.setAttribute('data-city-mm', t["City MM"] || '');
+                opt.setAttribute('data-postal', t["Postal Code"] || '');
+                opt.textContent = t.Township;
+                ownerTownship.appendChild(opt);
+            });
+            ownerTownship.disabled = false;
+            if (towns.length) ownerTownship.value = towns[0].Township;
+            ownerTownship.dispatchEvent(new Event('change'));
+        });
+
+        ownerTownship.addEventListener('change', (e) => {
+            const selected = e.target.selectedOptions[0];
+            document.getElementById('ownerDistrict').value = selected?.getAttribute('data-district') || '';
+            document.getElementById('ownerCityEn').value = selected?.getAttribute('data-city-en') || '';
+            document.getElementById('ownerCityMm').value = selected?.getAttribute('data-city-mm') || '';
+            document.getElementById('ownerPostal').value = selected?.getAttribute('data-postal') || '';
+            updateOwnerFullAddress();
+            if (document.getElementById('sameAsOwnerCheckbox').checked) syncBusinessFromOwner();
+        });
+
+        busRegion.addEventListener('change', () => {
+            const region = busRegion.value;
+            busTownship.innerHTML = '<option value="">-- Select township --</option>';
+            if (!region) { busTownship.disabled = true; return; }
+            const towns = getTownshipsForRegion(region);
+            towns.forEach(t => {
+                const opt = document.createElement('option');
+                opt.value = t.Township;
+                opt.setAttribute('data-district', t.District || '');
+                opt.setAttribute('data-city-en', t["City EN"] || '');
+                opt.setAttribute('data-city-mm', t["City MM"] || '');
+                opt.setAttribute('data-postal', t["Postal Code"] || '');
+                opt.textContent = t.Township;
+                busTownship.appendChild(opt);
+            });
+            busTownship.disabled = false;
+            if (towns.length && !document.getElementById('sameAsOwnerCheckbox').checked) {
+                busTownship.value = towns[0].Township;
+                busTownship.dispatchEvent(new Event('change'));
+            }
+        });
+
+        busTownship.addEventListener('change', (e) => {
+            const selected = e.target.selectedOptions[0];
+            document.getElementById('busDistrict').value = selected?.getAttribute('data-district') || '';
+            document.getElementById('busCityEn').value = selected?.getAttribute('data-city-en') || '';
+            document.getElementById('busCityMm').value = selected?.getAttribute('data-city-mm') || '';
+            document.getElementById('busPostal').value = selected?.getAttribute('data-postal') || '';
+            updateBusinessFullAddress();
+        });
+
+        const ownerHouseEn = document.getElementById('ownerHouseEn');
+        const ownerStreetEn = document.getElementById('ownerStreetEn');
+        const ownerHouseMm = document.getElementById('ownerHouseMm');
+        const ownerStreetMm = document.getElementById('ownerStreetMm');
+        [ownerHouseEn, ownerStreetEn, ownerHouseMm, ownerStreetMm].forEach(el => {
+            el.addEventListener('input', () => {
+                updateOwnerFullAddress();
+                if (document.getElementById('sameAsOwnerCheckbox').checked) syncBusinessFromOwner();
+            });
+        });
+
+        const busHouseEn = document.getElementById('busHouseEn');
+        const busStreetEn = document.getElementById('busStreetEn');
+        const busHouseMm = document.getElementById('busHouseMm');
+        const busStreetMm = document.getElementById('busStreetMm');
+        [busHouseEn, busStreetEn, busHouseMm, busStreetMm].forEach(el => {
+            el.addEventListener('input', updateBusinessFullAddress);
+        });
+
+        setTimeout(() => {
+            if (regions.length) {
+                ownerRegion.value = regions[0];
+                ownerRegion.dispatchEvent(new Event('change'));
+                busRegion.value = regions[0];
+                busRegion.dispatchEvent(new Event('change'));
+            }
+        }, 600);
+    }
+
+    function syncBusinessFromOwner() {
+        if (isSyncing) return;
+        isSyncing = true;
+        const ownerRegion = document.getElementById('ownerRegion');
+        const ownerTownship = document.getElementById('ownerTownship');
+        const busRegion = document.getElementById('busRegion');
+        const busTownship = document.getElementById('busTownship');
+
+        if (ownerRegion.value) {
+            busRegion.value = ownerRegion.value;
+            busRegion.dispatchEvent(new Event('change'));
+        }
+        setTimeout(() => {
+            if (ownerTownship.value && busTownship.options.length) {
+                busTownship.value = ownerTownship.value;
+                busTownship.dispatchEvent(new Event('change'));
+            }
+        }, 100);
+        document.getElementById('busHouseEn').value = document.getElementById('ownerHouseEn').value;
+        document.getElementById('busStreetEn').value = document.getElementById('ownerStreetEn').value;
+        document.getElementById('busHouseMm').value = document.getElementById('ownerHouseMm').value;
+        document.getElementById('busStreetMm').value = document.getElementById('ownerStreetMm').value;
+        updateBusinessFullAddress();
+        isSyncing = false;
+    }
+
+    function setupSameAddressFeature() {
+        const checkbox = document.getElementById('sameAsOwnerCheckbox');
+        const busFields = [
+            document.getElementById('busRegion'),
+            document.getElementById('busTownship'),
+            document.getElementById('busHouseEn'),
+            document.getElementById('busStreetEn'),
+            document.getElementById('busHouseMm'),
+            document.getElementById('busStreetMm')
+        ];
+        function setDisabled(disabled) {
+            busFields.forEach(f => f.disabled = disabled);
+            document.getElementById('busDistrict').disabled = disabled;
+            document.getElementById('busCityEn').disabled = disabled;
+            document.getElementById('busCityMm').disabled = disabled;
+            document.getElementById('busPostal').disabled = disabled;
+        }
+        checkbox.addEventListener('change', () => {
+            if (checkbox.checked) {
+                syncBusinessFromOwner();
+                setDisabled(true);
+            } else {
+                setDisabled(false);
+                if (document.getElementById('busRegion').value && document.getElementById('busTownship').options.length > 1) {
+                    document.getElementById('busTownship').disabled = false;
+                }
+            }
+        });
+        syncBusinessFromOwner();
+        setDisabled(true);
+    }
+
+    function populateMCC() {
+        const mccSelect = document.getElementById('mccCode');
+        mccSelect.innerHTML = '<option value="">-- Select MCC --</option>';
+        mccList.forEach(m => {
+            const opt = document.createElement('option');
+            opt.value = m.mcc_code;
+            opt.textContent = `${m.mcc_code} - ${m.mcc_name.substring(0, 55)}`;
+            mccSelect.appendChild(opt);
+        });
+        setTimeout(() => { if (mccList.length) mccSelect.value = "5311"; }, 700);
+    }
+
+    // Step navigation
+    function validateStep(step) {
+        if (step === 1) {
+            const phone = document.getElementById('merchantPhone').value.trim();
+            const title = document.getElementById('titleEn').value;
+            const lastName = document.getElementById('lastNameEn').value.trim();
+            const dob = document.getElementById('dob').value;
+            const father = document.getElementById('fatherName').value.trim();
+            const nrcPrefix = document.getElementById('nrcPrefix').value;
+            const nrcTsp = document.getElementById('nrcTsp').value;
+            const nrcType = document.getElementById('nrcType').value;
+            const nrcNum = document.getElementById('nrcNumber').value;
+            const ownerRegion = document.getElementById('ownerRegion').value;
+            const ownerTownship = document.getElementById('ownerTownship').value;
+            if (!phone || !title || !lastName || !dob || !father) { alert("Please fill all required owner fields"); return false; }
+            if (!nrcPrefix || !nrcTsp || !nrcType || !/^\d{6}$/.test(nrcNum)) { alert("Complete NRC (prefix, township, type, 6-digit number)"); return false; }
+            if (!ownerRegion || !ownerTownship) { alert("Select owner region & township"); return false; }
+            return true;
+        } else if (step === 2) {
+            const labelEn = document.getElementById('merchantLabelEn').value.trim();
+            const labelMm = document.getElementById('merchantLabelMm').value.trim();
+            const mcc = document.getElementById('mccCode').value;
+            const dica = document.getElementById('businessReg').value.trim();
+            const busRegion = document.getElementById('busRegion').value;
+            const busTownship = document.getElementById('busTownship').value;
+            const lat = document.getElementById('latitude').value;
+            const lng = document.getElementById('longitude').value;
+            if (!labelEn || !labelMm || !mcc || !dica) { alert("Complete business details"); return false; }
+            if (!busRegion || !busTownship) { alert("Select business region & township"); return false; }
+            if (!lat || !lng) { alert("Latitude and Longitude required"); return false; }
+            return true;
+        }
+        return true;
+    }
+
+    function goToStep(step) {
+        document.querySelectorAll('.step').forEach((el, idx) => {
+            el.classList.toggle('active-step', idx + 1 === step);
+        });
+        document.querySelectorAll('.step-badge').forEach((badge, idx) => {
+            badge.classList.remove('active', 'completed');
+            if (idx + 1 === step) badge.classList.add('active');
+            else if (idx + 1 < step) badge.classList.add('completed');
+        });
+        currentStep = step;
+        if (step === 3) renderTablePreview();
+    }
+
+    function renderTablePreview() {
+        const data = collectAllData();
+        let html = '<div class="table-preview"><table>';
+        for (const [key, val] of Object.entries(data)) {
+            let displayVal = (val === null || val === undefined) ? '' : val;
+            if (typeof displayVal === 'object') displayVal = JSON.stringify(displayVal);
+            html += `<tr><th style="width:35%">${key}</th><td>${String(displayVal).substring(0, 200)}</td></tr>`;
+        }
+        html += '</table></div>';
+        document.getElementById('previewContainer').innerHTML = html;
+    }
+
+    function renderJsonPreview() {
+        const data = collectAllData();
+        const jsonStr = JSON.stringify(data, null, 2);
+        document.getElementById('previewContainer').innerHTML = `<div class="json-preview"><pre style="margin:0;font-family:monospace;">${escapeHtml(jsonStr)}</pre></div>`;
+    }
+
+    function escapeHtml(str) {
+        return str.replace(/[&<>]/g, m => m === '&' ? '&amp;' : (m === '<' ? '&lt;' : '&gt;'));
+    }
+
+    // Navigation listeners
+    document.getElementById('nextStep1').addEventListener('click', () => { if (validateStep(1)) goToStep(2); });
+    document.getElementById('prevStep2').addEventListener('click', () => goToStep(1));
+    document.getElementById('nextStep2').addEventListener('click', () => { if (validateStep(2)) goToStep(3); });
+    document.getElementById('prevStep3').addEventListener('click', () => goToStep(2));
+    document.getElementById('viewTableBtn').addEventListener('click', renderTablePreview);
+    document.getElementById('viewJsonBtn').addEventListener('click', renderJsonPreview);
+
+    // Contact number sync
+    document.getElementById('merchantPhone').addEventListener('input', () => {
+        document.getElementById('contactNumber').value = document.getElementById('merchantPhone').value;
+    });
+    document.getElementById('contactNumber').value = document.getElementById('merchantPhone').value;
+
+    // Default Title MM
+    document.getElementById('titleMm').value = 'ဦး';
+
+    // Final submit: show loading and let the form submit naturally (multipart)
+    document.getElementById('finalSubmit').addEventListener('click', (e) => {
+        e.preventDefault();
+        if (validateStep(3)) {
+            document.getElementById('finalSubmit').innerText = "Submitting...";
+            document.getElementById('finalSubmit').disabled = true;
+            document.getElementById('multiStepForm').submit();
+        }
+    });
+
+    // Load external data
+    async function init() {
+        try {
+            const [nrcRes, addrRes, mccRes] = await Promise.all([
+                fetchJSON('https://raw.githubusercontent.com/mmtool/address/main/nrc.json'),
+                fetchJSON('https://raw.githubusercontent.com/mmtool/address/main/address.json'),
+                fetchJSON('https://raw.githubusercontent.com/mmtool/address/main/mcc.json')
+            ]);
+            nrcRaw = nrcRes;
+            addressList = addrRes;
+            mccList = mccRes;
+            populateNrcPrefixes();
+            populateNrcTypes();
+            setupAddresses();
+            populateMCC();
+            setupGenderAutofill();
+            setupCompanyAutofill();
+            setupSameAddressFeature();
+            document.getElementById('maritalStatus').value = 'Single';
+            document.getElementById('titleEn').value = 'U';
+            document.getElementById('titleEn').dispatchEvent(new Event('change'));
+        } catch (err) {
+            console.error(err);
+            alert("Failed to load configuration. Please refresh.");
+        }
+    }
+    init();
+</script>
+</body>
+</html>
