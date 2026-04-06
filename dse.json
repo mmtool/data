@@ -1,0 +1,744 @@
+{
+  "form_title": "Merchant Onboarding Form",
+  "version": "1.0",
+  "data_sources": {
+    "nrc": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/nrc_data.json",
+    "mcc": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/mcc.json",
+    "address": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/address.json"
+  },
+  "sections": [
+    {
+      "section_id": "application_info",
+      "section_title": "1. Application Information",
+      "fields": [
+        {
+          "name": "id",
+          "label": "ID",
+          "type": "auto_generate",
+          "required": true,
+          "editable": false,
+          "appearance": "show"
+        },
+        {
+          "name": "onboard_by",
+          "label": "Onboard By",
+          "type": "select",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "options": ["Customer", "Employee"]
+        },
+        {
+          "name": "applicant_email",
+          "label": "Applicant Email",
+          "type": "email",
+          "required": true,
+          "editable": true,
+          "appearance": "show"
+        }
+      ]
+    },
+    {
+      "section_id": "merchant_owner_info",
+      "section_title": "2.1 Merchant Owner Information",
+      "fields": [
+        {
+          "name": "merchant_phone_no",
+          "label": "Merchant Phone No",
+          "type": "tel",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "maps_to": "contact_number"
+        },
+        {
+          "name": "first_name",
+          "label": "First Name",
+          "type": "select",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "options": ["U", "Daw"],
+          "triggers": ["gender", "first_name_mm"]
+        },
+        {
+          "name": "last_name",
+          "label": "Last Name",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show"
+        },
+        {
+          "name": "first_name_mm",
+          "label": "First Name (MM)",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "show",
+          "logic": {
+            "condition": "first_name",
+            "mapping": {
+              "U": "ဦး",
+              "Daw": "ဒေါ်"
+            }
+          }
+        },
+        {
+          "name": "last_name_mm",
+          "label": "Last Name (MM)",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show"
+        },
+        {
+          "name": "dob",
+          "label": "Date of Birth",
+          "type": "date",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "format": "DD/MM/YYYY"
+        },
+        {
+          "name": "father_name",
+          "label": "Father Name",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "note": "Required for identity verification"
+        },
+        {
+          "name": "marital_status",
+          "label": "Marital Status",
+          "type": "constant",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "value": "Single"
+        },
+        {
+          "name": "gender",
+          "label": "Gender",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "logic": {
+            "condition": "first_name",
+            "mapping": {
+              "U": "Male",
+              "Daw": "Female"
+            }
+          }
+        },
+        {
+          "name": "contact_number",
+          "label": "Contact Number",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "merchant_phone_no"
+        }
+      ]
+    },
+    {
+      "section_id": "owner_nrc",
+      "section_title": "2.2 Owner Identification (NRC)",
+      "fields": [
+        {
+          "name": "nrc_no",
+          "label": "No",
+          "type": "select",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "options_from": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/nrc_data.json",
+          "data_path": "nrc.no",
+          "value_key": "no"
+        },
+        {
+          "name": "nrc_tsp",
+          "label": "Tsp",
+          "type": "select",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "options_from": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/nrc_data.json",
+          "data_path": "nrc.no_tsp",
+          "depends_on": {
+            "field": "nrc_no",
+            "filter_by": "key"
+          }
+        },
+        {
+          "name": "nrc_type",
+          "label": "Type",
+          "type": "select",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "options_from": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/nrc_data.json",
+          "data_path": "nrc.type"
+        },
+        {
+          "name": "nrc_number",
+          "label": "NRC Number",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "validation": {
+            "pattern": "^[0-9]{6}$",
+            "message": "Numeric only (6 digits)"
+          }
+        },
+        {
+          "name": "nrc_full",
+          "label": "Full NRC",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "show",
+          "read_only": true,
+          "format": "{nrc_no}/{nrc_tsp}({nrc_type}){nrc_number}",
+          "example": "12/magada(C)160968"
+        }
+      ]
+    },
+    {
+      "section_id": "owner_address",
+      "section_title": "2.3 Owner Address",
+      "fields": [
+        {
+          "name": "owner_country",
+          "label": "Country",
+          "type": "constant",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "value": "Myanmar"
+        },
+        {
+          "name": "owner_region",
+          "label": "Region",
+          "type": "select",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "options_from": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/address.json",
+          "value_key": "Region",
+          "unique": true
+        },
+        {
+          "name": "owner_township",
+          "label": "Township",
+          "type": "select",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "options_from": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/address.json",
+          "depends_on": {
+            "field": "owner_region",
+            "filter_by": "Region"
+          },
+          "value_key": "Township"
+        },
+        {
+          "name": "owner_district",
+          "label": "District",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "owner_township",
+          "data_from": "address.json",
+          "mapping": "District"
+        },
+        {
+          "name": "owner_city_en",
+          "label": "City EN",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "owner_township",
+          "data_from": "address.json",
+          "mapping": "City EN"
+        },
+        {
+          "name": "owner_city_mm",
+          "label": "City MM",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "owner_township",
+          "data_from": "address.json",
+          "mapping": "City MM"
+        },
+        {
+          "name": "owner_postal_code",
+          "label": "Postal Code",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "owner_township",
+          "data_from": "address.json",
+          "mapping": "Postal Code"
+        },
+        {
+          "name": "owner_house_no",
+          "label": "House No",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show"
+        },
+        {
+          "name": "owner_street",
+          "label": "Street",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show"
+        },
+        {
+          "name": "owner_house_no_mm",
+          "label": "House No (MM)",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show"
+        },
+        {
+          "name": "owner_street_mm",
+          "label": "Street (MM)",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show"
+        },
+        {
+          "name": "owner_full_address",
+          "label": "Owner Full Address",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "format": "{owner_house_no}, {owner_street}, {owner_city_en}, {owner_postal_code}, Myanmar"
+        }
+      ]
+    },
+    {
+      "section_id": "merchant_business",
+      "section_title": "3.1 Merchant Business Information",
+      "fields": [
+        {
+          "name": "merchant_label_en",
+          "label": "Merchant Label (EN)",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "triggers": [
+            "company_name_en",
+            "company_short_name_en",
+            "business_name_en"
+          ]
+        },
+        {
+          "name": "merchant_label_mm",
+          "label": "Merchant Label (MM)",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "triggers": [
+            "company_name_mm",
+            "company_short_name_mm",
+            "business_name_mm"
+          ]
+        },
+        {
+          "name": "company_name_en",
+          "label": "Company Name (EN)",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "merchant_label_en"
+        },
+        {
+          "name": "company_name_mm",
+          "label": "Company Name (MM)",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "merchant_label_mm"
+        },
+        {
+          "name": "company_short_name_en",
+          "label": "Company Short Name (EN)",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "merchant_label_en"
+        },
+        {
+          "name": "company_short_name_mm",
+          "label": "Company Short Name (MM)",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "merchant_label_mm"
+        },
+        {
+          "name": "business_name_en",
+          "label": "Business Name (EN)",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "merchant_label_en"
+        },
+        {
+          "name": "business_name_mm",
+          "label": "Business Name (MM)",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "merchant_label_mm"
+        },
+        {
+          "name": "group",
+          "label": "Group",
+          "type": "select",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "options_from": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/mcc.json",
+          "value_key": "group",
+          "unique": true,
+          "note": "Extracts unique group names from MCC data"
+        },
+        {
+          "name": "mcc_name",
+          "label": "MCC Name",
+          "type": "select",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "options_from": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/mcc.json",
+          "depends_on": {
+            "field": "group",
+            "filter_by": "group"
+          },
+          "value_key": "mcc_name",
+          "display_format": "{mcc_name} ({mcc_code})"
+        },
+        {
+          "name": "mcc_code",
+          "label": "MCC Code",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "mcc_name",
+          "data_from": "mcc.json",
+          "mapping": "mcc_code"
+        },
+        {
+          "name": "acquirer",
+          "label": "Acquirer",
+          "type": "constant",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "value": "Shwebank"
+        },
+        {
+          "name": "offer",
+          "label": "Offer",
+          "type": "constant",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "value": "Merchant"
+        },
+        {
+          "name": "business_email",
+          "label": "Email",
+          "type": "constant",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "value": "merchant@mo.com.mm"
+        },
+        {
+          "name": "dica_grn_rcdc",
+          "label": "DICA / GRN / RCDC",
+          "type": "text",
+          "required": false,
+          "editable": true,
+          "appearance": "show",
+          "note": "Business registration IDs"
+        }
+      ]
+    },
+    {
+      "section_id": "merchant_address",
+      "section_title": "3.2 Merchant Address",
+      "fields": [
+        {
+          "name": "merchant_country",
+          "label": "Country",
+          "type": "constant",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "value": "Myanmar"
+        },
+        {
+          "name": "merchant_region",
+          "label": "Region",
+          "type": "select",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "options_from": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/address.json",
+          "value_key": "Region",
+          "unique": true
+        },
+        {
+          "name": "merchant_township",
+          "label": "Township",
+          "type": "select",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "options_from": "https://raw.githubusercontent.com/mmtool/data/refs/heads/main/address.json",
+          "depends_on": {
+            "field": "merchant_region",
+            "filter_by": "Region"
+          },
+          "value_key": "Township"
+        },
+        {
+          "name": "merchant_district",
+          "label": "District",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "merchant_township",
+          "data_from": "address.json",
+          "mapping": "District"
+        },
+        {
+          "name": "merchant_city_en",
+          "label": "City EN",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "merchant_township",
+          "data_from": "address.json",
+          "mapping": "City EN"
+        },
+        {
+          "name": "merchant_city_mm",
+          "label": "City MM",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "merchant_township",
+          "data_from": "address.json",
+          "mapping": "City MM"
+        },
+        {
+          "name": "merchant_postal_code",
+          "label": "Postal Code",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "source_field": "merchant_township",
+          "data_from": "address.json",
+          "mapping": "Postal Code"
+        },
+        {
+          "name": "merchant_house_no_en",
+          "label": "House No (EN)",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show"
+        },
+        {
+          "name": "merchant_street_en",
+          "label": "Street (EN)",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show"
+        },
+        {
+          "name": "merchant_house_no_mm",
+          "label": "House No (MM)",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show"
+        },
+        {
+          "name": "merchant_street_mm",
+          "label": "Street (MM)",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "appearance": "show"
+        },
+        {
+          "name": "merchant_full_address",
+          "label": "Merchant Full Address",
+          "type": "autofill",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "format": "{merchant_house_no_en} / {merchant_street_en}, {merchant_city_en}, {merchant_postal_code}, Myanmar"
+        },
+        {
+          "name": "latitude",
+          "label": "Latitude",
+          "type": "number",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "default": "Current GPS"
+        },
+        {
+          "name": "longitude",
+          "label": "Longitude",
+          "type": "number",
+          "required": true,
+          "editable": true,
+          "appearance": "show",
+          "default": "Current GPS"
+        }
+      ]
+    },
+    {
+      "section_id": "merchant_operational",
+      "section_title": "3.3 Merchant Operational Data",
+      "fields": [
+        {
+          "name": "open_24_7",
+          "label": "Open 24/7",
+          "type": "constant",
+          "required": true,
+          "editable": false,
+          "appearance": "hide",
+          "value": true
+        }
+      ]
+    },
+    {
+      "section_id": "documents",
+      "section_title": "4. Document Management & Media",
+      "fields": [
+        {
+          "name": "business_doc",
+          "label": "Business Doc",
+          "type": "file",
+          "required": false,
+          "editable": true,
+          "appearance": "show",
+          "accept": ["application/pdf", "image/jpeg", "image/png"],
+          "max_size_mb": 10
+        },
+        {
+          "name": "agreement_contract",
+          "label": "Agreement / Contract",
+          "type": "file",
+          "required": false,
+          "editable": true,
+          "appearance": "show",
+          "note": "Signed terms",
+          "accept": ["application/pdf", "image/jpeg", "image/png"],
+          "max_size_mb": 10
+        },
+        {
+          "name": "bod",
+          "label": "BOD (Board of Directors)",
+          "type": "file",
+          "required": false,
+          "editable": true,
+          "appearance": "show",
+          "note": "Director list",
+          "accept": ["application/pdf", "image/jpeg", "image/png"],
+          "max_size_mb": 10
+        },
+        {
+          "name": "shop_photo",
+          "label": "Shop Photo",
+          "type": "file",
+          "required": false,
+          "editable": true,
+          "appearance": "show",
+          "note": "Storefront image",
+          "accept": ["image/jpeg", "image/png"],
+          "max_size_mb": 5
+        },
+        {
+          "name": "nrc_front",
+          "label": "NRC Front",
+          "type": "file",
+          "required": false,
+          "editable": true,
+          "appearance": "show",
+          "note": "ID front",
+          "accept": ["image/jpeg", "image/png"],
+          "max_size_mb": 5
+        },
+        {
+          "name": "nrc_back",
+          "label": "NRC Back",
+          "type": "file",
+          "required": false,
+          "editable": true,
+          "appearance": "show",
+          "note": "ID back",
+          "accept": ["image/jpeg", "image/png"],
+          "max_size_mb": 5
+        }
+      ]
+    },
+    {
+      "section_id": "signature",
+      "section_title": "5. Merchant Signature",
+      "fields": [
+        {
+          "name": "signature",
+          "label": "Signature",
+          "type": "draw_signature",
+          "required": false,
+          "editable": true,
+          "appearance": "show",
+          "output_format": "image/png",
+          "note": "Save Draw Signature as PNG",
+          "max_size_mb": 2
+        }
+      ]
+    }
+  ]
+}
