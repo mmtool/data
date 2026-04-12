@@ -1,0 +1,1381 @@
+{
+  "err": 200,
+  "message": "Success",
+  "data": {
+    "state": [
+      {
+        "value": 1
+      },
+      {
+        "value": 2
+      },
+      {
+        "value": 3
+      },
+      {
+        "value": 4
+      },
+      {
+        "value": 5
+      },
+      {
+        "value": 6
+      },
+      {
+        "value": 7
+      },
+      {
+        "value": 8
+      },
+      {
+        "value": 9
+      },
+      {
+        "value": 10
+      },
+      {
+        "value": 11
+      },
+      {
+        "value": 12
+      },
+      {
+        "value": 13
+      },
+      {
+        "value": 14
+      }
+    ],
+    "type": [
+      {
+        "value": "C"
+      },
+      {
+        "value": "AC"
+      },
+      {
+        "value": "NC"
+      },
+      {
+        "value": "N"
+      },
+      {
+        "value": "M"
+      },
+      {
+        "value": "V"
+      }
+    ],
+    "township": {
+      "1": [
+        {
+          "value": "a ga ya"
+        },
+        {
+          "value": "ba ma na"
+        },
+        {
+          "value": "da pha ya"
+        },
+        {
+          "value": "ha pa na"
+        },
+        {
+          "value": "hsa ba ta"
+        },
+        {
+          "value": "hsa da na"
+        },
+        {
+          "value": "hsa la na"
+        },
+        {
+          "value": "hsa pa ba"
+        },
+        {
+          "value": "ka ma na"
+        },
+        {
+          "value": "ka ma ta"
+        },
+        {
+          "value": "ka pa ta"
+        },
+        {
+          "value": "kha ba da"
+        },
+        {
+          "value": "kha pha na"
+        },
+        {
+          "value": "la ga na"
+        },
+        {
+          "value": "ma ka na"
+        },
+        {
+          "value": "ma ka ta"
+        },
+        {
+          "value": "ma kha ba"
+        },
+        {
+          "value": "ma la na"
+        },
+        {
+          "value": "ma ma na"
+        },
+        {
+          "value": "ma nya na"
+        },
+        {
+          "value": "ma sa na"
+        },
+        {
+          "value": "na ma na"
+        },
+        {
+          "value": "pa na da"
+        },
+        {
+          "value": "pa ta a"
+        },
+        {
+          "value": "pa wa na"
+        },
+        {
+          "value": "ra ba ya"
+        },
+        {
+          "value": "ra ka na"
+        },
+        {
+          "value": "ta na na"
+        },
+        {
+          "value": "wa ma na"
+        }
+      ],
+      "2": [
+        {
+          "value": "ba la kha"
+        },
+        {
+          "value": "da ma hsa"
+        },
+        {
+          "value": "la ka na"
+        },
+        {
+          "value": "ma sa na"
+        },
+        {
+          "value": "pha hsa na"
+        },
+        {
+          "value": "pha ra hsa"
+        },
+        {
+          "value": "ra ta na"
+        },
+        {
+          "value": "ra tha na"
+        }
+      ],
+      "3": [
+        {
+          "value": "ba a na"
+        },
+        {
+          "value": "ba ga la"
+        },
+        {
+          "value": "ba tha hsa"
+        },
+        {
+          "value": "ka da na"
+        },
+        {
+          "value": "ka hsa ka"
+        },
+        {
+          "value": "ka ka ra"
+        },
+        {
+          "value": "ka ma ma"
+        },
+        {
+          "value": "la ba na"
+        },
+        {
+          "value": "la tha na"
+        },
+        {
+          "value": "ma wa ta"
+        },
+        {
+          "value": "pa ka na"
+        },
+        {
+          "value": "pha pa na"
+        },
+        {
+          "value": "ra ra tha"
+        },
+        {
+          "value": "sa ka la"
+        },
+        {
+          "value": "tha ta ka"
+        },
+        {
+          "value": "tha ta na"
+        },
+        {
+          "value": "wa la ma"
+        }
+      ],
+      "4": [
+        {
+          "value": "ha kha na"
+        },
+        {
+          "value": "hsa ma na"
+        },
+        {
+          "value": "hta ta la"
+        },
+        {
+          "value": "ka kha na"
+        },
+        {
+          "value": "ka pa la"
+        },
+        {
+          "value": "ma ta na"
+        },
+        {
+          "value": "ma ta pa"
+        },
+        {
+          "value": "pa la wa"
+        },
+        {
+          "value": "pha la na"
+        },
+        {
+          "value": "ra kha da"
+        },
+        {
+          "value": "ra za na"
+        },
+        {
+          "value": "ta ta na"
+        },
+        {
+          "value": "ta za na"
+        }
+      ],
+      "5": [
+        {
+          "value": "a ra ta"
+        },
+        {
+          "value": "a ta na"
+        },
+        {
+          "value": "ba ma na"
+        },
+        {
+          "value": "ba ta la"
+        },
+        {
+          "value": "da ha na"
+        },
+        {
+          "value": "da pa ya"
+        },
+        {
+          "value": "ha ma la"
+        },
+        {
+          "value": "hsa la ka"
+        },
+        {
+          "value": "hsa ma ra"
+        },
+        {
+          "value": "hta kha na"
+        },
+        {
+          "value": "hta pa kha"
+        },
+        {
+          "value": "ka ba la"
+        },
+        {
+          "value": "ka la hta"
+        },
+        {
+          "value": "ka la na"
+        },
+        {
+          "value": "ka la ta"
+        },
+        {
+          "value": "ka la wa"
+        },
+        {
+          "value": "ka ma na"
+        },
+        {
+          "value": "ka na na"
+        },
+        {
+          "value": "ka tha na"
+        },
+        {
+          "value": "kha pa na"
+        },
+        {
+          "value": "kha ta na"
+        },
+        {
+          "value": "kha u na"
+        },
+        {
+          "value": "kha u ta"
+        },
+        {
+          "value": "la ha na"
+        },
+        {
+          "value": "la ra na"
+        },
+        {
+          "value": "ma ka na"
+        },
+        {
+          "value": "ma la na"
+        },
+        {
+          "value": "ma ma na"
+        },
+        {
+          "value": "ma ma ta"
+        },
+        {
+          "value": "ma pa la"
+        },
+        {
+          "value": "ma ra na"
+        },
+        {
+          "value": "ma tha na"
+        },
+        {
+          "value": "na ya na"
+        },
+        {
+          "value": "nga za na"
+        },
+        {
+          "value": "pa hsa na"
+        },
+        {
+          "value": "pa la ba"
+        },
+        {
+          "value": "pa la na"
+        },
+        {
+          "value": "pha pa na"
+        },
+        {
+          "value": "ra ba na"
+        },
+        {
+          "value": "ra u na"
+        },
+        {
+          "value": "sa ka na"
+        },
+        {
+          "value": "ta hsa na"
+        },
+        {
+          "value": "ta ma na"
+        },
+        {
+          "value": "wa la na"
+        },
+        {
+          "value": "wa tha na"
+        },
+        {
+          "value": "ya ma pa"
+        }
+      ],
+      "6": [
+        {
+          "value": "ba pa na"
+        },
+        {
+          "value": "hta wa na"
+        },
+        {
+          "value": "ka la a"
+        },
+        {
+          "value": "ka ra ra"
+        },
+        {
+          "value": "ka sa na"
+        },
+        {
+          "value": "ka tha na"
+        },
+        {
+          "value": "kha ma ka"
+        },
+        {
+          "value": "la la na"
+        },
+        {
+          "value": "ma a na"
+        },
+        {
+          "value": "ma a ra"
+        },
+        {
+          "value": "ma ma na"
+        },
+        {
+          "value": "ma ta na"
+        },
+        {
+          "value": "pa ka ma"
+        },
+        {
+          "value": "pa la na"
+        },
+        {
+          "value": "pa la ta"
+        },
+        {
+          "value": "ra pha na"
+        },
+        {
+          "value": "ta tha ra"
+        },
+        {
+          "value": "tha ra kha"
+        }
+      ],
+      "7": [
+        {
+          "value": "a pha na"
+        },
+        {
+          "value": "a ta na"
+        },
+        {
+          "value": "da u na"
+        },
+        {
+          "value": "hta ta pa"
+        },
+        {
+          "value": "ka ka na"
+        },
+        {
+          "value": "ka pa ka"
+        },
+        {
+          "value": "ka ta kha"
+        },
+        {
+          "value": "ka wa na"
+        },
+        {
+          "value": "la pa ta"
+        },
+        {
+          "value": "ma la na"
+        },
+        {
+          "value": "ma nya na"
+        },
+        {
+          "value": "na ta la"
+        },
+        {
+          "value": "nya la pa"
+        },
+        {
+          "value": "pa kha na"
+        },
+        {
+          "value": "pa kha ta"
+        },
+        {
+          "value": "pa ma na"
+        },
+        {
+          "value": "pa ta na"
+        },
+        {
+          "value": "pa ta ta"
+        },
+        {
+          "value": "pha ma na"
+        },
+        {
+          "value": "ra ka na"
+        },
+        {
+          "value": "ra ta na"
+        },
+        {
+          "value": "ra ta ra"
+        },
+        {
+          "value": "ta nga na"
+        },
+        {
+          "value": "tha ka na"
+        },
+        {
+          "value": "tha na pa"
+        },
+        {
+          "value": "tha wa ta"
+        },
+        {
+          "value": "wa ma na"
+        },
+        {
+          "value": "za ka na"
+        }
+      ],
+      "8": [
+        {
+          "value": "a la na"
+        },
+        {
+          "value": "ga ga na"
+        },
+        {
+          "value": "hsa ma na"
+        },
+        {
+          "value": "hsa pa wa"
+        },
+        {
+          "value": "hsa pha na"
+        },
+        {
+          "value": "hta la na"
+        },
+        {
+          "value": "ka hta na"
+        },
+        {
+          "value": "ka ma na"
+        },
+        {
+          "value": "kha ma na"
+        },
+        {
+          "value": "ma ba na"
+        },
+        {
+          "value": "ma hta na"
+        },
+        {
+          "value": "ma ka na"
+        },
+        {
+          "value": "ma la na"
+        },
+        {
+          "value": "ma ma na"
+        },
+        {
+          "value": "ma ta na"
+        },
+        {
+          "value": "ma tha na"
+        },
+        {
+          "value": "na ma na"
+        },
+        {
+          "value": "nga pha na"
+        },
+        {
+          "value": "pa kha ka"
+        },
+        {
+          "value": "pa ma na"
+        },
+        {
+          "value": "pa pha na"
+        },
+        {
+          "value": "ra na kha"
+        },
+        {
+          "value": "ra sa ka"
+        },
+        {
+          "value": "sa la na"
+        },
+        {
+          "value": "sa ta ra"
+        },
+        {
+          "value": "ta ta ka"
+        },
+        {
+          "value": "tha ra na"
+        }
+      ],
+      "9": [
+        {
+          "value": "a ma ra"
+        },
+        {
+          "value": "a ma za"
+        },
+        {
+          "value": "da kha tha"
+        },
+        {
+          "value": "ka hsa na"
+        },
+        {
+          "value": "ka pa ta"
+        },
+        {
+          "value": "kha a za"
+        },
+        {
+          "value": "kha ma sa"
+        },
+        {
+          "value": "la wa na"
+        },
+        {
+          "value": "ma ha ma"
+        },
+        {
+          "value": "ma hta la"
+        },
+        {
+          "value": "ma ka na"
+        },
+        {
+          "value": "ma kha na"
+        },
+        {
+          "value": "ma la na"
+        },
+        {
+          "value": "ma ma na"
+        },
+        {
+          "value": "ma na ma"
+        },
+        {
+          "value": "ma na ta"
+        },
+        {
+          "value": "ma ra ma"
+        },
+        {
+          "value": "ma ra ta"
+        },
+        {
+          "value": "ma ta ra"
+        },
+        {
+          "value": "ma tha na"
+        },
+        {
+          "value": "na hta ka"
+        },
+        {
+          "value": "nga tha ra"
+        },
+        {
+          "value": "nga za na"
+        },
+        {
+          "value": "nya u na"
+        },
+        {
+          "value": "pa ba na"
+        },
+        {
+          "value": "pa ba tha"
+        },
+        {
+          "value": "pa ma na"
+        },
+        {
+          "value": "pa ta kha"
+        },
+        {
+          "value": "pa tha ka"
+        },
+        {
+          "value": "pa u la"
+        },
+        {
+          "value": "ra ma tha"
+        },
+        {
+          "value": "sa ka na"
+        },
+        {
+          "value": "sa ka ta"
+        },
+        {
+          "value": "ta ka na"
+        },
+        {
+          "value": "ta ka ta"
+        },
+        {
+          "value": "ta ta u"
+        },
+        {
+          "value": "ta tha na"
+        },
+        {
+          "value": "tha pa ka"
+        },
+        {
+          "value": "tha sa na"
+        },
+        {
+          "value": "u ta tha"
+        },
+        {
+          "value": "wa ta na"
+        },
+        {
+          "value": "za ba tha"
+        },
+        {
+          "value": "za ya tha"
+        }
+      ],
+      "10": [
+        {
+          "value": "ba la na"
+        },
+        {
+          "value": "ka hta na"
+        },
+        {
+          "value": "ka ma ra"
+        },
+        {
+          "value": "kha hsa na"
+        },
+        {
+          "value": "kha za na"
+        },
+        {
+          "value": "la ma na"
+        },
+        {
+          "value": "ma da na"
+        },
+        {
+          "value": "ma la ma"
+        },
+        {
+          "value": "pa ma na"
+        },
+        {
+          "value": "ra ma na"
+        },
+        {
+          "value": "tha hta na"
+        },
+        {
+          "value": "tha pha ra"
+        }
+      ],
+      "11": [
+        {
+          "value": "a ma na"
+        },
+        {
+          "value": "ba tha ta"
+        },
+        {
+          "value": "ga ma na"
+        },
+        {
+          "value": "ka pha na"
+        },
+        {
+          "value": "ka ta la"
+        },
+        {
+          "value": "ka ta na"
+        },
+        {
+          "value": "ma a na"
+        },
+        {
+          "value": "ma a ta"
+        },
+        {
+          "value": "ma pa na"
+        },
+        {
+          "value": "ma pa ta"
+        },
+        {
+          "value": "ma ta na"
+        },
+        {
+          "value": "ma u na"
+        },
+        {
+          "value": "pa na ta"
+        },
+        {
+          "value": "pa ta na"
+        },
+        {
+          "value": "ra ba na"
+        },
+        {
+          "value": "ra tha ta"
+        },
+        {
+          "value": "sa ta na"
+        },
+        {
+          "value": "ta ka na"
+        },
+        {
+          "value": "ta pa wa"
+        },
+        {
+          "value": "tha ta na"
+        }
+      ],
+      "12": [
+        {
+          "value": "a la na"
+        },
+        {
+          "value": "a sa na"
+        },
+        {
+          "value": "ba ha na"
+        },
+        {
+          "value": "ba ta hta"
+        },
+        {
+          "value": "da ga hsa"
+        },
+        {
+          "value": "da ga ma"
+        },
+        {
+          "value": "da ga na"
+        },
+        {
+          "value": "da ga ra"
+        },
+        {
+          "value": "da ga ta"
+        },
+        {
+          "value": "da la na"
+        },
+        {
+          "value": "da pa na"
+        },
+        {
+          "value": "hsa ka kha"
+        },
+        {
+          "value": "hsa ka na"
+        },
+        {
+          "value": "hta ta pa"
+        },
+        {
+          "value": "ka ka ka"
+        },
+        {
+          "value": "ka kha ka"
+        },
+        {
+          "value": "ka ma na"
+        },
+        {
+          "value": "ka ma ra"
+        },
+        {
+          "value": "ka ma ta"
+        },
+        {
+          "value": "ka ta na"
+        },
+        {
+          "value": "ka ta ta"
+        },
+        {
+          "value": "kha ra na"
+        },
+        {
+          "value": "la ka na"
+        },
+        {
+          "value": "la ma na"
+        },
+        {
+          "value": "la ma ta"
+        },
+        {
+          "value": "la tha na"
+        },
+        {
+          "value": "la tha ya"
+        },
+        {
+          "value": "la ya na"
+        },
+        {
+          "value": "la ya ra"
+        },
+        {
+          "value": "ma ba na"
+        },
+        {
+          "value": "ma ga da"
+        },
+        {
+          "value": "ma ga ta"
+        },
+        {
+          "value": "ma ra ka"
+        },
+        {
+          "value": "pa ba ta"
+        },
+        {
+          "value": "pa za ta"
+        },
+        {
+          "value": "ra ka na"
+        },
+        {
+          "value": "ra pa tha"
+        },
+        {
+          "value": "sa kha na"
+        },
+        {
+          "value": "ta ka na"
+        },
+        {
+          "value": "ta ma na"
+        },
+        {
+          "value": "ta ta na"
+        },
+        {
+          "value": "ta ta ta"
+        },
+        {
+          "value": "tha ga ka"
+        },
+        {
+          "value": "tha ka ta"
+        },
+        {
+          "value": "tha kha na"
+        },
+        {
+          "value": "tha la na"
+        },
+        {
+          "value": "u ka ma"
+        },
+        {
+          "value": "u ka ta"
+        }
+      ],
+      "13": [
+        {
+          "value": "a ta na"
+        },
+        {
+          "value": "ha ma na"
+        },
+        {
+          "value": "ha pa na"
+        },
+        {
+          "value": "ha pa ta"
+        },
+        {
+          "value": "hsa hsa na"
+        },
+        {
+          "value": "ka ha na"
+        },
+        {
+          "value": "ka ka na"
+        },
+        {
+          "value": "ka kha na"
+        },
+        {
+          "value": "ka la da"
+        },
+        {
+          "value": "ka la hta"
+        },
+        {
+          "value": "ka la na"
+        },
+        {
+          "value": "ka la ta"
+        },
+        {
+          "value": "ka ma na"
+        },
+        {
+          "value": "ka ta la"
+        },
+        {
+          "value": "ka ta na"
+        },
+        {
+          "value": "ka ta ta"
+        },
+        {
+          "value": "ka tha na"
+        },
+        {
+          "value": "kha la na"
+        },
+        {
+          "value": "kha ra ha"
+        },
+        {
+          "value": "la ka na"
+        },
+        {
+          "value": "la kha na"
+        },
+        {
+          "value": "la kha ta"
+        },
+        {
+          "value": "la la na"
+        },
+        {
+          "value": "la ra na"
+        },
+        {
+          "value": "ma ba na"
+        },
+        {
+          "value": "ma ha ra"
+        },
+        {
+          "value": "ma hsa na"
+        },
+        {
+          "value": "ma hsa ta"
+        },
+        {
+          "value": "ma hta na"
+        },
+        {
+          "value": "ma hta ta"
+        },
+        {
+          "value": "ma ka hta"
+        },
+        {
+          "value": "ma ka na"
+        },
+        {
+          "value": "ma ka ta"
+        },
+        {
+          "value": "ma kha na"
+        },
+        {
+          "value": "ma kha ta"
+        },
+        {
+          "value": "ma la na"
+        },
+        {
+          "value": "ma la ta"
+        },
+        {
+          "value": "ma ma hta"
+        },
+        {
+          "value": "ma ma na"
+        },
+        {
+          "value": "ma ma ta"
+        },
+        {
+          "value": "ma na na"
+        },
+        {
+          "value": "ma na ta"
+        },
+        {
+          "value": "ma nga na"
+        },
+        {
+          "value": "ma pa hta"
+        },
+        {
+          "value": "ma pa na"
+        },
+        {
+          "value": "ma pa ta"
+        },
+        {
+          "value": "ma pha na"
+        },
+        {
+          "value": "ma pha ta"
+        },
+        {
+          "value": "ma ra na"
+        },
+        {
+          "value": "ma ra ta"
+        },
+        {
+          "value": "ma sa na"
+        },
+        {
+          "value": "ma ta na"
+        },
+        {
+          "value": "ma ta ta"
+        },
+        {
+          "value": "ma ya hta"
+        },
+        {
+          "value": "ma ya na"
+        },
+        {
+          "value": "ma ya ta"
+        },
+        {
+          "value": "na hsa na"
+        },
+        {
+          "value": "na kha na"
+        },
+        {
+          "value": "na kha ta"
+        },
+        {
+          "value": "na ma ta"
+        },
+        {
+          "value": "na pha na"
+        },
+        {
+          "value": "na sa na"
+        },
+        {
+          "value": "na ta na"
+        },
+        {
+          "value": "na ta ra"
+        },
+        {
+          "value": "nya ra na"
+        },
+        {
+          "value": "pa hsa na"
+        },
+        {
+          "value": "pa hsa ta"
+        },
+        {
+          "value": "pa la hta"
+        },
+        {
+          "value": "pa la na"
+        },
+        {
+          "value": "pa pa ka"
+        },
+        {
+          "value": "pa ta ya"
+        },
+        {
+          "value": "pa wa na"
+        },
+        {
+          "value": "pa ya na"
+        },
+        {
+          "value": "pha kha na"
+        },
+        {
+          "value": "ra nga na"
+        },
+        {
+          "value": "ra sa na"
+        },
+        {
+          "value": "ta ka na"
+        },
+        {
+          "value": "ta kha la"
+        },
+        {
+          "value": "ta la na"
+        },
+        {
+          "value": "ta ma nya"
+        },
+        {
+          "value": "ta ta na"
+        },
+        {
+          "value": "ta ya na"
+        },
+        {
+          "value": "tha na na"
+        },
+        {
+          "value": "tha pa na"
+        }
+      ],
+      "14": [
+        {
+          "value": "a ga pa"
+        },
+        {
+          "value": "a ma na"
+        },
+        {
+          "value": "a ma ta"
+        },
+        {
+          "value": "ba ka la"
+        },
+        {
+          "value": "da da ra"
+        },
+        {
+          "value": "da na pha"
+        },
+        {
+          "value": "ha ka ka"
+        },
+        {
+          "value": "ha tha ta"
+        },
+        {
+          "value": "ka ka hta"
+        },
+        {
+          "value": "ka ka na"
+        },
+        {
+          "value": "ka kha na"
+        },
+        {
+          "value": "ka la na"
+        },
+        {
+          "value": "ka pa na"
+        },
+        {
+          "value": "la ma na"
+        },
+        {
+          "value": "la pa ta"
+        },
+        {
+          "value": "ma a na"
+        },
+        {
+          "value": "ma a pa"
+        },
+        {
+          "value": "ma ma ka"
+        },
+        {
+          "value": "ma ma na"
+        },
+        {
+          "value": "nga hsa na"
+        },
+        {
+          "value": "nga pa ta"
+        },
+        {
+          "value": "nga ra ka"
+        },
+        {
+          "value": "nga tha kha"
+        },
+        {
+          "value": "nya ta na"
+        },
+        {
+          "value": "pa sa la"
+        },
+        {
+          "value": "pa ta na"
+        },
+        {
+          "value": "pa tha na"
+        },
+        {
+          "value": "pa tha ra"
+        },
+        {
+          "value": "pha pa na"
+        },
+        {
+          "value": "ra ka na"
+        },
+        {
+          "value": "ra tha ya"
+        },
+        {
+          "value": "tha pa na"
+        },
+        {
+          "value": "wa kha ma"
+        },
+        {
+          "value": "za la na"
+        }
+      ]
+    }
+  }
+}
