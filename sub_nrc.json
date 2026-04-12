@@ -1,8 +1,5 @@
 {
-  "err": 200,
-  "message": "Success",
-  "data": {
-    "state": [
+  "state": [
       {
         "value": 1
       },
@@ -1378,4 +1375,4 @@
       ]
     }
   }
-}
+
